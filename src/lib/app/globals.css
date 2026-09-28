@@ -1,0 +1,155 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Class-based dark mode (the target wiki ships with class="dark" on <html>) */
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ---- Accent token used by every custom component -----------------------
+     Change these two lines to re-theme the whole site.
+     Components reference it via `text-nav-theme` / `bg-nav-theme/10` / ...
+     Never hardcode a hex colour inside a TSX files.                        */
+  --nav-theme: 160 84% 39%;
+  --nav-theme-light: 142 71% 45%;
+
+  /* ---- Base palette (matches vvultimatum.net) ---------------------------- */
+  --background: #f9f7f4;
+  --foreground: #2a2724;
+  --card: #fcfbf9;
+  --card-foreground: #2a2724;
+  --popover: #fcfbf9;
+  --popover-foreground: #2a2724;
+  --primary: #1c1a18;
+  --primary-foreground: #fafafa;
+  --secondary: #f0ede9;
+  --secondary-foreground: #2a2724;
+  --muted: #f0ede9;
+  --muted-foreground: #656360;
+  --accent: #f0ede9;
+  --accent-foreground: #2a2724;
+  --destructive: #e40014;
+  --destructive-foreground: #e40014;
+  --border: #e3e0dd;
+  --input: #e3e0dd;
+  --ring: #a1a1a1;
+  --chart-1: #f05100;
+  --chart-2: #009588;
+  --chart-3: #104e64;
+  --chart-4: #fcbb00;
+  --chart-5: #f99c00;
+  --sidebar: #fcfbf9;
+  --sidebar-foreground: #2a2724;
+  --sidebar-primary: #1c1a18;
+  --sidebar-primary-foreground: #fafafa;
+  --sidebar-accent: #f0ede9;
+  --sidebar-accent-foreground: #2a2724;
+  --sidebar-border: #e3e0dd;
+  --sidebar-ring: #a1a1a1;
+  --radius: 0.625rem;
+}
+
+.dark {
+  --nav-theme: 158 64% 52%;
+  --nav-theme-light: 160 84% 39%;
+
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --card: #0a0a0a;
+  --card-foreground: #fafafa;
+  --popover: #0a0a0a;
+  --popover-foreground: #fafafa;
+  --primary: #fafafa;
+  --primary-foreground: #171717;
+  --secondary: #262626;
+  --secondary-foreground: #fafafa;
+  --muted: #262626;
+  --muted-foreground: #a1a1a1;
+  --accent: #262626;
+  --accent-foreground: #fafafa;
+  --destructive: #e40014;
+  --destructive-foreground: #e40014;
+  --border: #262626;
+  --input: #262626;
+  --ring: #525252;
+  --chart-1: #1447e6;
+  --chart-2: #00bb7f;
+  --chart-3: #f99c00;
+  --chart-4: #ac4bff;
+  --chart-5: #ff2357;
+  --sidebar: #121212;
+  --sidebar-foreground: #fafafa;
+  --sidebar-primary: #fafafa;
+  --sidebar-primary-foreground: #171717;
+  --sidebar-accent: #262626;
+  --sidebar-accent-foreground: #fafafa;
+  --sidebar-border: #262626;
+  --sidebar-ring: #525252;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Accent derived from --nav-theme */
+  --color-nav-theme: hsl(var(--nav-theme));
+
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Libre Baskerville", ui-serif, Georgia, Cambria, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Hide scrollbars inside the sticky sidebar like the reference site */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
