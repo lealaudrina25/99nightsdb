@@ -1,0 +1,449 @@
+{
+  "site": {
+    "name": "VV: ULTIMATUM",
+    "shortName": "VV Ultimatum",
+    "tagline": "玩家共建的非官方 Wiki",
+    "title": "VV: ULTIMATUM — 兑换码、配装、攻略",
+    "description": "完整的 VV: ULTIMATUM 资料站：有效兑换码、BOSS 打法、种族攻略、配装思路，以及死神、灭却师、虚的成长路线。",
+    "ogImageAlt": "VV: ULTIMATUM Wiki — 兑换码、配装与攻略",
+    "footerNote": "玩家共建的非官方 Wiki，为玩家而做。",
+    "footerBrand": "VV Ultimatum Wiki",
+    "footerDesc": "VV Ultimatum Wiki 是由玩家独立搭建的攻略站，覆盖成长路线、种族、BOSS、配装以及新老玩家都需要的游戏常识。",
+    "footerBadge": "玩家共建的 Roblox 资料站 · 每周更新",
+    "copyright": "© 2026 VV: ULTIMATUM Wiki。与 Midnight Continent 及 Roblox 无任何关联。"
+  },
+  "nav": {
+    "races": "种族",
+    "bosses": "BOSS",
+    "guides": "攻略",
+    "codes": "兑换码",
+    "tierList": "强度榜",
+    "updates": "更新"
+  },
+  "actions": {
+    "toggleTheme": "切换主题",
+    "openCategories": "展开全部分类",
+    "previous": "上一页",
+    "next": "下一页",
+    "copy": "复制到剪贴板",
+    "copied": "已复制",
+    "closeAd": "关闭广告"
+  },
+  "common": {
+    "home": "首页",
+    "readMore": "阅读全文",
+    "officialMedia": "官方素材",
+    "lastUpdated": "更新于",
+    "badgeNew": "新",
+    "badgePopular": "热门",
+    "backHome": "返回首页",
+    "watchOnYouTube": "在 YouTube 上观看",
+    "playOnRoblox": "在 Roblox 上游玩"
+  },
+  "hero": {
+    "title": "VV: ULTIMATUM",
+    "badge": "玩家共建的非官方 Wiki",
+    "videoAlt": "VV: ULTIMATUM 官方预告片",
+    "videoLabel": "YouTube",
+    "intro": "面向 Roblox 玩家的 VV: ULTIMATUM 参考手册：对比种族成长路线、查询 BOSS 掉落、查看配装思路，并追踪最新的兑换码快照。",
+    "stats": [
+      { "icon": "gamepad", "label": "上线时间", "value": "6 月 5 日" },
+      { "icon": "refresh", "label": "最近更新", "value": "9 月 11 日" },
+      { "icon": "swords", "label": "种族数量", "value": "3" },
+      { "icon": "trending", "label": "等级上限", "value": "Lv100" },
+      { "icon": "sparkles", "label": "技能总数", "value": "130+" }
+    ],
+    "buttons": [
+      { "label": "新手入门指南", "href": "/guides/beginner-guide", "primary": true },
+      { "label": "对比种族", "href": "/races/best-race" },
+      { "label": "查看兑换码快照", "href": "/codes/active-codes" }
+    ]
+  },
+  "announcements": {
+    "title": "最新游戏更新",
+    "allLabel": "查看全部更新",
+    "allHref": "/updates/latest-patch-notes",
+    "items": [
+      {
+        "tag": "minor",
+        "title": "第 23 次更新（9 月 11 日）：记录木系卍解解 variants，4 种抽取结果已上线",
+        "date": "9 月 11 日",
+        "href": "/updates/latest-patch-notes"
+      },
+      {
+        "tag": "minor",
+        "title": "第 22 次更新（9 月 10 日）：版本确认，补丁说明仅在 Discord 发布，暂未出现新兑换码",
+        "date": "9 月 10 日",
+        "href": "/updates/latest-patch-notes"
+      },
+      {
+        "tag": "minor",
+        "title": "新增两个鬼道技能精华 —— Qual Kreis 与 Gravity Thrust",
+        "date": "8 月 17 日",
+        "href": "/updates/latest-patch-notes"
+      }
+    ]
+  },
+  "journey": {
+    "kicker": "从这里开始",
+    "title": "你的 VV Ultimatum 成长之路",
+    "steps": [
+      {
+        "title": "打好基础",
+        "description": "操作、战斗系统、任务——首次登录需要知道的一切。",
+        "href": "/guides/beginner-guide"
+      },
+      {
+        "title": "选择种族",
+        "description": "对比死神、灭却师与虚，找到最适合你打法的那个。",
+        "href": "/races/best-race"
+      },
+      {
+        "title": "确定路线",
+        "description": "了解每个种族独有的成长线——卍解、归刃、圣文字与进化路径。",
+        "href": "/races/best-race"
+      },
+      {
+        "title": "配装与优化",
+        "description": "130+ 技能、120+ 装备与灵符——先比较，再决定是否消耗代币或重置道具。",
+        "href": "/tier-list/best-hollow-traits"
+      }
+    ]
+  },
+  "trending": {
+    "kicker": "热门页面",
+    "title": "本周热榜",
+    "cards": [
+      {
+        "tag": "新手",
+        "title": "新手入门指南",
+        "description": "从首次登录到早期战斗与成长系统，一条可以照着走的路线。",
+        "href": "/guides/beginner-guide"
+      },
+      {
+        "tag": "更新",
+        "title": "兑换码快照",
+        "description": "经过社区验证的兑换码快照，附带奖励与兑换说明。",
+        "href": "/codes/active-codes"
+      },
+      {
+        "tag": "更新",
+        "title": "BOSS 位置与掉落",
+        "description": "所有 BOSS 的位置、掉落表与刷新时间，一张表查完。",
+        "href": "/guides/boss-locations-drops-respawn-times"
+      },
+      {
+        "tag": "热门",
+        "title": "该选哪个种族？",
+        "description": "死神、灭却师还是虚——三者横向对比，找到最适合你的打法。",
+        "href": "/races/best-race"
+      },
+      {
+        "tag": "热门",
+        "title": "Gelum BOSS 攻略",
+        "description": "Fort Adams 的新手骑士——弹反窗口、红光攻击与完整掉落表。",
+        "href": "/bosses/gelum"
+      },
+      {
+        "tag": "热门",
+        "title": "Sakkaku（圣文字 BOSS）",
+        "description": "灭却师圣文字解锁 BOSS，拥有两阶段复活机制。",
+        "href": "/bosses/sakkaku"
+      },
+      {
+        "tag": "热门",
+        "title": "虚之特性排行",
+        "description": "13 种虚之特性全部排名，含优缺点与配装搭配建议。",
+        "href": "/tier-list/best-hollow-traits"
+      },
+      {
+        "tag": "更新",
+        "title": "最新补丁说明",
+        "description": "最近的 VV: ULTIMATUM 版本记录，附来源与日期。",
+        "href": "/updates/latest-patch-notes"
+      },
+      {
+        "tag": "新",
+        "title": "The Gelid Dweller",
+        "description": "刚上线的后期 BOSS——场地说明、攻击模式与确认掉落。",
+        "href": "/bosses/gelid-dweller"
+      },
+      {
+        "tag": "热门",
+        "title": "King Croc BOSS 攻略",
+        "description": "沼泽区域 BOSS——横扫时机、惩罚窗口与掉落说明。",
+        "href": "/bosses/king-croc"
+      },
+      {
+        "tag": "新",
+        "title": "The Everfrosted BOSS",
+        "description": "冰系 BOSS，徽章获取率极低——仅 6.8%。",
+        "href": "/bosses/everfrosted"
+      }
+    ],
+    "quickLinks": [
+      { "label": "全部攻略", "href": "/guides" },
+      { "label": "全部 BOSS 攻略", "href": "/bosses" },
+      { "label": "种族对比", "href": "/races" },
+      { "label": "兑换码快照", "href": "/codes" }
+    ]
+  },
+  "overview": {
+    "title": "VV: ULTIMATUM 是什么？",
+    "paragraphs": [
+      "VV: ULTIMATUM 是 Roblox 上一款以《死神》世界观为灵感的格斗 RPG。你可以选择三个种族——死神、灭却师或虚，每个种族都有独立的成长系统、可解锁能力与进化路线。掌握 130 多个技能，一路打到 100 级上限。",
+      "无论你是在解锁第一个卍解、从基础虚进化成破面，还是在刷灭却师副队长任务，本站提供的是标注来源的攻略、数据表和能直接照做的路线规划。"
+    ],
+    "stats": [
+      { "label": "开发商", "value": "Midnight Continent" },
+      { "label": "平台", "value": "Roblox" },
+      { "label": "类型", "value": "格斗 RPG" },
+      { "label": "访问量", "value": "5000 万+" },
+      { "label": "收藏数", "value": "约 52 万" },
+      { "label": "技能总数", "value": "130+" },
+      { "label": "等级上限", "value": "100" }
+    ],
+    "snapshotNote": "Roblox 数据快照：2026 年 9 月 11 日 ET",
+    "ctaLabel": "浏览全部攻略",
+    "ctaHref": "/guides/beginner-guide"
+  },
+  "explore": {
+    "title": "浏览 Wiki",
+    "description": "标注来源的 VV: ULTIMATUM 攻略、数据库与路线规划页面。",
+    "cards": [
+      {
+        "icon": "users",
+        "title": "种族攻略",
+        "description": "死神、灭却师与虚的解锁条件与成长路线。",
+        "href": "/races"
+      },
+      {
+        "icon": "swords",
+        "title": "BOSS 打法",
+        "description": "确认过的掉落、路线说明与战斗细节，与待验证机制分开标注。",
+        "href": "/bosses"
+      },
+      {
+        "icon": "hammer",
+        "title": "配装优化",
+        "description": "不同打法下的配装思路、属性分配与灵符搭配。",
+        "href": "/tier-list"
+      },
+      {
+        "icon": "map",
+        "title": "区域攻略",
+        "description": "完整的区域分解：等级区间、关键 NPC、任务与隐藏地点。",
+        "href": "/guides"
+      },
+      {
+        "icon": "route",
+        "title": "成长路线",
+        "description": "卍解、归刃、圣文字等的逐步通关流程。",
+        "href": "/guides/beginner-guide"
+      },
+      {
+        "icon": "ticket",
+        "title": "有效兑换码",
+        "description": "经过社区验证的兑换码快照，含兑换步骤、奖励与来源标注。",
+        "href": "/codes"
+      },
+      {
+        "icon": "shield",
+        "title": "战斗机制",
+        "description": "掌握格挡、弹反、姿态破坏与红光反击系统。",
+        "href": "/bosses/gelum"
+      },
+      {
+        "icon": "barChart",
+        "title": "特性排行",
+        "description": "13 种虚之特性全部排名，含优缺点与配装搭配。",
+        "href": "/tier-list/best-hollow-traits"
+      },
+      {
+        "icon": "radio",
+        "title": "更新日志",
+        "description": "每条记录在案的版本说明，方便你随时查看变更内容。",
+        "href": "/updates"
+      }
+    ]
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "关于 VV: ULTIMATUM 最常见问题的快速解答。",
+    "items": [
+      {
+        "q": "VV: ULTIMATUM 是什么？",
+        "a": "VV: ULTIMATUM 是 Roblox 上以《死神》为题材的免费格斗 RPG。你可以选择三个种族——死神、灭却师或虚，每个种族都有独特的成长线、战斗能力与进化系统。游戏包含 130+ 技能、100 级上限、BOSS 战与深度配装。"
+      },
+      {
+        "q": "我该选哪个种族？",
+        "a": "取决于你的打法偏好。死神偏近身压制并解锁卍解，灭却师依靠远程灵子手段拉开距离，虚则用防御换取爆发伤害并解锁归刃。建议在种族对比页把三者横向比较后再决定。"
+      },
+      {
+        "q": "VV: ULTIMATUM 有兑换码吗？",
+        "a": "有。兑换码快照页列出了经过社区验证的兑换码，含奖励内容、兑换说明以及每条信息的来源。兑换码随时可能失效，看到就尽快使用。"
+      },
+      {
+        "q": "卍解 / 归刃 / 圣文字怎么解锁？",
+        "a": "每个种族都有一个内世界 BOSS 与战力解锁绑定：死神打 Shikai Spirit，虚打 Resurreccion Spirit，灭却师则需要击败 Sakkaku 才能获得圣文字。成长攻略里逐步列出了前置条件。"
+      },
+      {
+        "q": "可以更换种族吗？",
+        "a": "换种族是有代价的——根据你想保留的内容不同，需要洗点或重转。重置前请先查看成长说明，避免清掉你真正需要的进度。"
+      },
+      {
+        "q": "EXP 系统是怎么运作的？",
+        "a": "EXP 来自任务、经验区与 BOSS 击杀，重复内容由任务券控制，等级上限为 100。新手攻略里给出了第一个角色最快的升级路线。"
+      },
+      {
+        "q": "我玩的是虚，要按 L 进化吗？",
+        "a": "进化会改变技能组并消耗当前形态，只有准备好专精这条路线时才建议进化。拿不准的话，先看完虚的进化流程。"
+      },
+      {
+        "q": "VV: ULTIMATUM 支持手机端吗？",
+        "a": "支持，Roblox 可以在手机上运行，游戏也能正常游玩，只是操作体验在电脑或主机上更顺畅。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "需要一份 VV: ULTIMATUM 路线？",
+    "description": "从 Fort Adams 的成长到后期 BOSS 备战，这个粉丝 Wiki 专注提供标注来源的攻略、路线说明与基于快照的资料页。",
+    "buttons": [
+      { "label": "阅读新手攻略", "href": "/guides/beginner-guide", "primary": true },
+      { "label": "在 Roblox 上游玩", "href": "https://www.roblox.com/games/6270290407/VV-ULTIMATUM", "external": true }
+    ]
+  },
+  "sidebar": {
+    "title": "Wiki 导航",
+    "communityTitle": "社区",
+    "links": [
+      { "label": "官方 Discord", "href": "https://discord.gg/vvgame", "external": true },
+      { "label": "官方 YouTube", "href": "https://www.youtube.com/@vvrobloxgame", "external": true },
+      { "label": "在 Roblox 上游玩", "href": "https://www.roblox.com/games/6270290407/VV-ULTIMATUM", "external": true }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "快速链接",
+        "links": [
+          { "label": "在 Roblox 上游玩", "href": "https://www.roblox.com/games/6270290407/VV-ULTIMATUM", "external": true },
+          { "label": "官方 Discord", "href": "https://discord.gg/vvgame", "external": true },
+          { "label": "官方 YouTube", "href": "https://www.youtube.com/@vvrobloxgame", "external": true },
+          { "label": "兑换码快照", "href": "/codes" }
+        ]
+      },
+      {
+        "title": "攻略",
+        "links": [
+          { "label": "新手攻略", "href": "/guides/beginner-guide" },
+          { "label": "种族攻略", "href": "/races" },
+          { "label": "BOSS 攻略", "href": "/bosses" },
+          { "label": "强度榜", "href": "/tier-list" }
+        ]
+      },
+      {
+        "title": "条款",
+        "links": [
+          { "label": "隐私政策", "href": "/privacy-policy" },
+          { "label": "服务条款", "href": "/terms-of-service" },
+          { "label": "版权声明", "href": "/copyright" },
+          { "label": "关于本站", "href": "/about" }
+        ]
+      },
+      {
+        "title": "栏目",
+        "links": [
+          { "label": "全部攻略", "href": "/guides" },
+          { "label": "更新日志", "href": "/updates" },
+          { "label": "BOSS 位置与掉落", "href": "/guides/boss-locations-drops-respawn-times" },
+          { "label": "该选哪个种族", "href": "/races/best-race" }
+        ]
+      }
+    ],
+    "social": [
+      { "label": "Discord", "href": "https://discord.gg/vvgame", "icon": "messageCircle" },
+      { "label": "YouTube", "href": "https://www.youtube.com/@vvrobloxgame", "icon": "play" },
+      { "label": "Roblox", "href": "https://www.roblox.com/games/6270290407/VV-ULTIMATUM", "icon": "gamepad2" }
+    ]
+  },
+  "pages": {
+    "bosses": {
+      "title": "BOSS 总览",
+      "description": "完整的 VV: ULTIMATUM BOSS 攻略：新手 BOSS、区域 BOSS、内世界战斗与后期强敌，含打法、掉落与刷新时间。",
+      "lead": "VV: ULTIMATUM 中所有 BOSS 战的完整攻略——从新手骑士 Gelum，到 Gelid Dweller 这样的后期强敌。",
+      "highlights": [
+        "Gelum",
+        "Shikai Spirit",
+        "Resurreccion Spirit",
+        "Dragonfly",
+        "King Croc",
+        "Securis",
+        "Sakkaku"
+      ],
+      "gridTitle": "BOSS 攻略列表"
+    },
+    "guides": {
+      "title": "攻略总览",
+      "description": "VV: ULTIMATUM 的新手路线、BOSS 位置表与成长通关流程。",
+      "lead": "可以直接照做的逐步路线：首次登录、BOSS 位置，以及每条解锁路径。",
+      "highlights": ["新手攻略", "BOSS 位置", "刷新时间"],
+      "gridTitle": "全部攻略"
+    },
+    "codes": {
+      "title": "兑换码快照",
+      "description": "经过社区验证的 VV: ULTIMATUM 兑换码，含奖励、兑换说明与来源链接。",
+      "lead": "玩家最近确认过的兑换码快照，以及每个码实际能领到的奖励。",
+      "highlights": ["有效兑换码", "兑换说明"],
+      "gridTitle": "兑换码文章"
+    },
+    "tier-list": {
+      "title": "强度榜",
+      "description": "VV: ULTIMATUM 中特性、灵符与成长选择的横向排名。",
+      "lead": "把你在纠结的选项排成榜单，并把排名理由讲清楚。",
+      "highlights": ["虚之特性"],
+      "gridTitle": "强度榜文章"
+    },
+    "updates": {
+      "title": "游戏更新",
+      "description": "最近的 VV: ULTIMATUM 版本记录，附来源与日期。",
+      "lead": "所有记录在案的版本说明，按时间倒序，方便你随时查看变更内容。",
+      "highlights": ["第 23 次更新", "第 22 次更新", "技能精华"],
+      "gridTitle": "更新说明"
+    },
+    "races": {
+      "title": "种族总览",
+      "description": "死神、灭却师与虚的横向对比——解锁条件、成长路线与打法说明。",
+      "lead": "三个种族，三条完全不同的解锁路线。先比较，再决定练哪个角色。",
+      "highlights": ["死神", "灭却师", "虚"],
+      "gridTitle": "种族文章"
+    }
+  },
+  "related": {
+    "title": "继续阅读",
+    "empty": "暂未关联任何页面。"
+  },
+  "notFound": {
+    "title": "页面不存在",
+    "description": "这个页面已被移动，或者还没写出来。试试下面的栏目。",
+    "ctaLabel": "返回首页"
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "隐私政策",
+      "updated": "最后更新：2026 年 9 月 11 日"
+    },
+    "termsOfService": {
+      "title": "服务条款",
+      "updated": "最后更新：2026 年 9 月 11 日"
+    },
+    "copyright": {
+      "title": "版权声明",
+      "updated": "最后更新：2026 年 9 月 11 日"
+    },
+    "about": {
+      "title": "关于本站",
+      "updated": "最后更新：2026 年 9 月 11 日"
+    }
+  }
+}
