@@ -1,3 +1,0 @@
-﻿   鈻?Next.js 15.5.26
-   - Environments: .env
-
