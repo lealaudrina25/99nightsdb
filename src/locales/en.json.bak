@@ -1,0 +1,453 @@
+{
+  "site": {
+    "name": "99 Nights in the Forest",
+    "shortName": "99 Nights Wiki",
+    "tagline": "Fan-Made Community Wiki",
+    "title": "99 Nights in the Forest Wiki — Codes, Classes, Weapons & Guides",
+    "description": "Fan-made 99 Nights in the Forest wiki with working codes, every class with prices and perks, weapon and item databases, entity behaviour notes, map locations, taming routes and survival guides.",
+    "ogImageAlt": "99 Nights in the Forest Wiki — Codes, Classes, Weapons & Guides",
+    "footerNote": "Non-official fan wiki. Made by players, for players.",
+    "footerBrand": "99 Nights Wiki",
+    "footerDesc": "99 Nights Wiki is an independent fan-built guide hub covering classes, weapons, items, entities, map locations, taming and survival strategy for new and veteran players alike.",
+    "footerBadge": "Fan-made reference · Updated with every patch",
+    "copyright": "© 2026 99 Nights Wiki. Not affiliated with Grandma's Favourite Games or Roblox."
+  },
+  "nav": {
+    "codes": "Codes",
+    "classes": "Classes",
+    "weapons": "Weapons",
+    "items": "Items",
+    "entities": "Entities",
+    "locations": "Locations",
+    "taming": "Taming",
+    "guides": "Guides"
+  },
+  "actions": {
+    "toggleTheme": "Toggle theme",
+    "openCategories": "Open all categories",
+    "previous": "Previous",
+    "next": "Next",
+    "copy": "Copy to clipboard",
+    "copied": "Copied",
+    "closeAd": "Close ad"
+  },
+  "common": {
+    "home": "Home",
+    "readMore": "Read more",
+    "officialMedia": "Official media",
+    "lastUpdated": "Updated",
+    "badgeNew": "New",
+    "badgePopular": "Popular",
+    "backHome": "Back to home",
+    "watchOnYouTube": "Watch on YouTube",
+    "playOnRoblox": "Play on Roblox"
+  },
+  "hero": {
+    "title": "99 Nights in the Forest",
+    "badge": "Fan-Made Community Wiki",
+    "videoAlt": "99 Nights in the Forest gameplay",
+    "videoLabel": "Roblox",
+    "intro": "Fan-made 99 Nights in the Forest reference for Roblox players. Compare classes before you spend your Diamonds, check which codes are still working, learn every entity's behaviour, and plan a camp that survives past night 40.",
+    "stats": [
+      { "icon": "gamepad", "label": "Launched", "value": "Mar 2025" },
+      { "icon": "refresh", "label": "Last Update", "value": "Sep 5" },
+      { "icon": "users", "label": "Classes", "value": "40+" },
+      { "icon": "swords", "label": "Items", "value": "104" },
+      { "icon": "trending", "label": "Nights", "value": "99" }
+    ],
+    "buttons": [
+      { "label": "Start Beginner Guide", "href": "/guides/beginner-guide", "primary": true },
+      { "label": "Compare All Classes", "href": "/classes/best-class" },
+      { "label": "Check Active Codes", "href": "/codes/active-codes" }
+    ]
+  },
+  "announcements": {
+    "title": "Latest Game Updates",
+    "allLabel": "Browse All Game Updates",
+    "allHref": "/guides/updates-patch-notes",
+    "items": [
+      {
+        "tag": "major",
+        "title": "New Classes Update (Sep 5): Escape Artist, Elemental & Woodsman Added",
+        "date": "Sep 5",
+        "href": "/guides/updates-patch-notes"
+      },
+      {
+        "tag": "minor",
+        "title": "Biome Refresher (Aug 22) — Layout Changes Across Existing Biomes",
+        "date": "Aug 22",
+        "href": "/guides/updates-patch-notes"
+      },
+      {
+        "tag": "major",
+        "title": "Dino Kid Update (Jul 12) — New Playtime, Babysitting & Warding Badges",
+        "date": "Jul 12",
+        "href": "/guides/updates-patch-notes"
+      }
+    ]
+  },
+  "journey": {
+    "kicker": "Start Here",
+    "title": "Your First 99 Nights",
+    "steps": [
+      {
+        "title": "Learn the Basics",
+        "description": "Campfire, hunger, night cycle and the rules that actually kill you — everything you need before your first nightfall.",
+        "href": "/guides/beginner-guide"
+      },
+      {
+        "title": "Pick Your Class",
+        "description": "Compare every class by price and perks before you spend Diamonds — the one thing you cannot refund.",
+        "href": "/classes/best-class"
+      },
+      {
+        "title": "Gear Up Fast",
+        "description": "Which wood sources pay off, where to find metal, and the armour path worth grinding for.",
+        "href": "/items/how-to-get-wood-fast"
+      },
+      {
+        "title": "Survive the Deer",
+        "description": "The Deer cannot be killed. Learn how to escape it, stun it, and never meet it in the dark.",
+        "href": "/entities/the-deer"
+      }
+    ]
+  },
+  "trending": {
+    "kicker": "Popular Pages",
+    "title": "Trending Now",
+    "cards": [
+      {
+        "tag": "Beginner",
+        "title": "Beginner Guide",
+        "description": "A practical route from your first campfire through your first successful 20 nights.",
+        "href": "/guides/beginner-guide"
+      },
+      {
+        "tag": "Updated",
+        "title": "Active Codes",
+        "description": "Working codes for free Diamonds and Flames, checked and dated — with redemption steps.",
+        "href": "/codes/active-codes"
+      },
+      {
+        "tag": "Popular",
+        "title": "Best Class",
+        "description": "Every class ranked by what it actually does in a run, including the cheap ones that overperform.",
+        "href": "/classes/best-class"
+      },
+      {
+        "tag": "Popular",
+        "title": "Where Are the Missing Kids?",
+        "description": "Exact locations for every missing kid, including Koala, Squid, Dino and Kraken Kid.",
+        "href": "/locations/missing-kids"
+      },
+      {
+        "tag": "Updated",
+        "title": "How to Get Wood Fast",
+        "description": "The fastest wood routes by biome, with the tool upgrades worth buying first.",
+        "href": "/items/how-to-get-wood-fast"
+      },
+      {
+        "tag": "Popular",
+        "title": "The Deer",
+        "description": "Behaviour, escape routes, how flashlights stun it, and the mistakes that get you killed.",
+        "href": "/entities/the-deer"
+      },
+      {
+        "tag": "Popular",
+        "title": "Taming Guide",
+        "description": "Buy the flute, win the balance minigame, and turn wolves and bears into bodyguards.",
+        "href": "/taming/taming-guide"
+      },
+      {
+        "tag": "New",
+        "title": "Best Base Design",
+        "description": "Layouts that hold at night 40+, from simple walls to full AFK setups.",
+        "href": "/guides/best-base-design"
+      },
+      {
+        "tag": "Popular",
+        "title": "All Items List",
+        "description": "Every item in the game with what it is for, where it drops, and whether it is worth carrying.",
+        "href": "/items"
+      },
+      {
+        "tag": "New",
+        "title": "Alien Class",
+        "description": "Night vision and alien energy — when it is worth 100 Diamonds and when it is a trap.",
+        "href": "/classes/alien-class"
+      },
+      {
+        "tag": "Updated",
+        "title": "Latest Patch Notes",
+        "description": "Every documented update so far, newest first, with dates and sources.",
+        "href": "/guides/updates-patch-notes"
+      }
+    ],
+    "quickLinks": [
+      { "label": "All Guides", "href": "/guides" },
+      { "label": "All Classes", "href": "/classes" },
+      { "label": "All Weapons", "href": "/weapons" },
+      { "label": "Active Codes", "href": "/codes" }
+    ]
+  },
+  "overview": {
+    "title": "What is 99 Nights in the Forest?",
+    "paragraphs": [
+      "99 Nights in the Forest is a co-op survival game on Roblox by Grandma's Favourite Games. You join up to 24 other players around a campfire, gather wood and food during the day, and try to stay alive for 99 in-game nights while things hunt you in the dark.",
+      "Every run follows the same shape: keep the fire burning, rescue the missing children, manage hunger, and push further out each night for better loot. This wiki focuses on the decisions that decide whether you reach night 20 or night 99 — which class to buy, which fights to take, and which mistakes to avoid."
+    ],
+    "stats": [
+      { "label": "Developer", "value": "Grandma's Favourite Games" },
+      { "label": "Platform", "value": "Roblox" },
+      { "label": "Genre", "value": "Co-op Survival" },
+      { "label": "Launched", "value": "Mar 4, 2025" },
+      { "label": "Visits", "value": "29.4B" },
+      { "label": "Concurrent", "value": "~200K" },
+      { "label": "Rating", "value": "90%" }
+    ],
+    "snapshotNote": "Roblox stats snapshot: Sep 6, 2026",
+    "ctaLabel": "Explore All Guides",
+    "ctaHref": "/guides/beginner-guide"
+  },
+  "explore": {
+    "title": "Explore the Wiki",
+    "description": "Source-checked 99 Nights guides, databases and route planning pages.",
+    "cards": [
+      {
+        "icon": "users",
+        "title": "All Classes",
+        "description": "Every class with its price, perks at each level, and the builds it actually fits.",
+        "href": "/classes"
+      },
+      {
+        "icon": "swords",
+        "title": "Weapons",
+        "description": "Melee and ranged weapons compared by damage, reach and how hard they are to get.",
+        "href": "/weapons"
+      },
+      {
+        "icon": "hammer",
+        "title": "Items & Materials",
+        "description": "The full item database plus the fastest farming routes for wood, metal and food.",
+        "href": "/items"
+      },
+      {
+        "icon": "users",
+        "title": "Entities",
+        "description": "Every creature you will meet, with behaviour notes, drops and how to survive each one.",
+        "href": "/entities"
+      },
+      {
+        "icon": "map",
+        "title": "Locations",
+        "description": "Map breakdowns for every biome, including where the missing kids are hidden.",
+        "href": "/locations"
+      },
+      {
+        "icon": "route",
+        "title": "Taming",
+        "description": "The Taming Flute, the balance minigame, and which animals are worth feeding.",
+        "href": "/taming"
+      },
+      {
+        "icon": "ticket",
+        "title": "Codes",
+        "description": "Working codes for free Diamonds and Flames, with exact redemption steps.",
+        "href": "/codes"
+      },
+      {
+        "icon": "shield",
+        "title": "Survival Guides",
+        "description": "Hunger cycles, night planning, hard mode, and base layouts that hold under pressure.",
+        "href": "/guides"
+      },
+      {
+        "icon": "barChart",
+        "title": "Is It Based on a True Story?",
+        "description": "What the 2023 Amazon survival story has to do with the Deer and the cultists.",
+        "href": "/guides/true-story"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Quick answers to the most common questions about 99 Nights in the Forest.",
+    "items": [
+      {
+        "q": "What is 99 Nights in the Forest?",
+        "a": "A free-to-play co-op survival game on Roblox made by Grandma's Favourite Games. You team up with other players around a campfire, gather resources by day, and try to survive 99 in-game nights while hostile entities hunt you after dark."
+      },
+      {
+        "q": "Which class should I buy first?",
+        "a": "It depends on the role you want to play. Wood runners, medics and combat classes solve completely different problems for the camp. Compare every class by price and perk on the class comparison page before spending Diamonds — you cannot refund them."
+      },
+      {
+        "q": "Can you kill the Deer?",
+        "a": "No. The Deer cannot be killed in normal play. A flashlight stuns it briefly, which is your only reliable way to escape. Staying near light and keeping the campfire fed matters far more than fighting it."
+      },
+      {
+        "q": "Are there codes for 99 Nights in the Forest?",
+        "a": "Yes, the developers release codes around updates and events, usually for Diamonds, Gems or Flames. Codes expire without warning, so redeem them as soon as you see them. The codes page lists what is currently working and what has just expired."
+      },
+      {
+        "q": "How do I tame animals?",
+        "a": "Buy the Taming Flute from the Tool Trader, find an animal you want, and win the balance minigame. Then feed it the food it asks for. A tamed wolf or bear fights alongside you, which makes night runs far less dangerous."
+      },
+      {
+        "q": "How do I find the missing kids?",
+        "a": "Each of the missing children spawns in a different structure across the map. Rescue them early — they later unlock extra jobs and badges. The missing kids page lists every location in order."
+      },
+      {
+        "q": "Is 99 Nights in the Forest based on a true story?",
+        "a": "Partly. It draws on the real story of four children who survived 40 days in the Amazon jungle after a plane crash in May 2023, mixed with Wendigo and Not Deer folklore. The true story page explains what is borrowed and what is invented."
+      },
+      {
+        "q": "Can I play on mobile?",
+        "a": "Yes, Roblox runs on mobile and the game is playable there, although the controls are noticeably easier on desktop."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for the Next 99 Nights?",
+    "description": "From your first campfire to hardened night-40 bases, this fan wiki focuses on checked facts, clear comparisons and routes you can follow in-game.",
+    "buttons": [
+      { "label": "Read the Beginner Guide", "href": "/guides/beginner-guide", "primary": true },
+      { "label": "Play on Roblox", "href": "https://www.roblox.com/games/79546208627805/99-NIGHTS-IN-THE-FOREST", "external": true }
+    ]
+  },
+  "sidebar": {
+    "title": "Wiki Navigation",
+    "communityTitle": "Community",
+    "links": [
+      { "label": "Play on Roblox", "href": "https://www.roblox.com/games/79546208627805/99-NIGHTS-IN-THE-FOREST", "external": true }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "label": "Play on Roblox", "href": "https://www.roblox.com/games/79546208627805/99-NIGHTS-IN-THE-FOREST", "external": true },
+          { "label": "Active Codes", "href": "/codes" },
+          { "label": "Beginner Guide", "href": "/guides/beginner-guide" },
+          { "label": "All Classes", "href": "/classes" }
+        ]
+      },
+      {
+        "title": "Database",
+        "links": [
+          { "label": "Weapons", "href": "/weapons" },
+          { "label": "Items", "href": "/items" },
+          { "label": "Entities", "href": "/entities" },
+          { "label": "Locations", "href": "/locations" }
+        ]
+      },
+      {
+        "title": "Guides",
+        "links": [
+          { "label": "Survival Guides", "href": "/guides" },
+          { "label": "Taming", "href": "/taming" },
+          { "label": "Patch Notes", "href": "/guides/updates-patch-notes" },
+          { "label": "About", "href": "/about" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "/privacy-policy" },
+          { "label": "Terms of Service", "href": "/terms-of-service" },
+          { "label": "Copyright", "href": "/copyright" },
+          { "label": "About", "href": "/about" }
+        ]
+      }
+    ],
+    "social": [
+      { "label": "Roblox", "href": "https://www.roblox.com/games/79546208627805/99-NIGHTS-IN-THE-FOREST", "icon": "gamepad2" }
+    ]
+  },
+  "pages": {
+    "codes": {
+      "title": "Codes",
+      "description": "Working 99 Nights in the Forest codes for free Diamonds, Gems and Flames, with redemption steps and expiry notes.",
+      "lead": "Every code we can confirm is live, plus the ones that just expired so you stop wasting time typing them.",
+      "highlights": ["Active Codes", "How to Redeem"],
+      "gridTitle": "Codes Articles"
+    },
+    "classes": {
+      "title": "All Classes",
+      "description": "Every class in 99 Nights in the Forest with its Diamond price, perks at each level, and the role it fills in a camp.",
+      "lead": "Classes are permanent purchases and cannot be refunded. Compare them carefully before you spend.",
+      "highlights": ["Best Class", "Alien", "Vampire", "Necromancer"],
+      "gridTitle": "Class Articles"
+    },
+    "weapons": {
+      "title": "Weapons",
+      "description": "Melee and ranged weapons compared by damage, reach, and how you actually get them.",
+      "lead": "From your first axe to late-game finds like the Laser Cannon and Infernal Sword.",
+      "highlights": ["Best Weapon", "Best Axe", "Laser Cannon"],
+      "gridTitle": "Weapon Articles"
+    },
+    "items": {
+      "title": "Items & Materials",
+      "description": "The full 99 Nights item database plus the fastest farming routes for wood, metal, food and armour.",
+      "lead": "Everything you can pick up, what it is for, and how to get more of it without wasting daylight.",
+      "highlights": ["Best Armour", "Best Food", "How to Get Wood Fast"],
+      "gridTitle": "Item Articles"
+    },
+    "entities": {
+      "title": "Entities",
+      "description": "Every creature and entity in 99 Nights in the Forest — behaviour, drops, aggression and how to survive it.",
+      "lead": "Peaceful by day, hostile by night. Know what you are walking into before it hears you.",
+      "highlights": ["The Deer", "Alpha Wolf", "Mammoth", "Cultist"],
+      "gridTitle": "Entity Articles"
+    },
+    "locations": {
+      "title": "Locations",
+      "description": "Full map coverage for every biome, structure and landmark, including where the missing kids are hidden.",
+      "lead": "Know where the resources are before nightfall pushes you back to the fire.",
+      "highlights": ["Missing Kids", "Hospital", "Volcano"],
+      "gridTitle": "Location Articles"
+    },
+    "taming": {
+      "title": "Taming",
+      "description": "How to tame animals in 99 Nights in the Forest, upgrade the flute, and turn pets into bodyguards.",
+      "lead": "A tamed predator is the cheapest defence upgrade in the game — here is how to get one.",
+      "highlights": ["Taming Guide", "Best Pet"],
+      "gridTitle": "Taming Articles"
+    },
+    "guides": {
+      "title": "Guides",
+      "description": "Beginner routes, survival strategy, hard mode, base layouts and patch notes for 99 Nights in the Forest.",
+      "lead": "Step-by-step routes you can follow in-game, from your first night to your hundredth.",
+      "highlights": ["Beginner Guide", "Survive 99 Nights", "Best Base Design"],
+      "gridTitle": "All Guides"
+    }
+  },
+  "related": {
+    "title": "Keep Reading",
+    "empty": "Nothing linked here yet."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "That page has moved or does not exist yet. Try one of the sections below.",
+    "ctaLabel": "Back to home"
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: September 24, 2026"
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "updated": "Last updated: September 24, 2026"
+    },
+    "copyright": {
+      "title": "Copyright",
+      "updated": "Last updated: September 24, 2026"
+    },
+    "about": {
+      "title": "About this Wiki",
+      "updated": "Last updated: September 24, 2026"
+    }
+  }
+}
