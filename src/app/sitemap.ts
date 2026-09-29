@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { getAllContentPaths } from '@/lib/content'
+import { getAllContent, getAllContentPaths } from '@/lib/content'
 import { HREFLANG, routing } from '@/i18n/routing'
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vvultimatum.example'
@@ -18,7 +18,12 @@ function alternates(path: string) {
   return { languages }
 }
 
-const LAST_MODIFIED = new Date('2026-09-11T00:00:00.000Z')
+/**
+ * Only used when an entry has no date of its own. Google ignores `lastmod`
+ * that is not verifiably accurate, so a fixed date here would mean no
+ * freshness signal at all — every real page now carries its own.
+ */
+const FALLBACK_DATE = new Date('2026-09-11T00:00:00.000Z')
 
 /**
  * IMPORTANT: every URL below either has a real MDX file behind it or is a
@@ -32,13 +37,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     locale: string,
     path: string,
     priority: number,
-    changeFrequency: 'weekly' | 'monthly' | 'daily' | 'yearly'
+    changeFrequency: 'weekly' | 'monthly' | 'daily' | 'yearly',
+    lastModified?: Date
   ) => {
     const url = `${SITE_URL}${localized(locale, path)}`
     if (entries.some((entry) => entry.url === url)) return
     entries.push({
       url,
-      lastModified: LAST_MODIFIED,
+      lastModified: lastModified ?? FALLBACK_DATE,
       changeFrequency,
       priority,
       alternates: alternates(path)
@@ -69,12 +75,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // list pages, derived from the scan (never from NAVIGATION_CONFIG alone)
     const typesWithContent = new Set(paths.map((item) => item.slug[0]))
+
+    // Real dates, read from each MDX file's `lastModified` (falling back to
+    // `date`). This is what tells Google an article was genuinely updated.
+    const dates = new Map<string, Date>()
     for (const type of typesWithContent) {
-      add(locale, `/${type}`, 0.8, 'weekly')
+      for (const entry of getAllContent(type, locale)) {
+        const stamp = entry.lastModified ?? entry.date
+        if (!stamp) continue
+        const parsed = new Date(stamp)
+        if (Number.isNaN(parsed.getTime())) continue
+        dates.set(`${type}/${entry.slug}`, parsed)
+      }
+    }
+
+    // A category page is as fresh as the newest article it lists.
+    for (const type of typesWithContent) {
+      let newest: Date | undefined
+      for (const [key, value] of dates) {
+        if (!key.startsWith(`${type}/`)) continue
+        if (!newest || value > newest) newest = value
+      }
+      add(locale, `/${type}`, 0.8, 'weekly', newest)
     }
 
     for (const { slug } of paths) {
-      add(locale, `/${slug.join('/')}`, 0.7, 'monthly')
+      add(locale, `/${slug.join('/')}`, 0.7, 'monthly', dates.get(slug.join('/')))
     }
   }
 
