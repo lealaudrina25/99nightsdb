@@ -1,0 +1,124 @@
+export const metadata = {
+  title: "The Owl",
+  description: "The Owl in 99 Nights in the Forest cannot be killed — you survive it by standing still. The eye-icon mechanic, the warning signs, the wolves it spawns to bait you into moving, and the Owl's Nest that turns feathers into rewards.",
+  category: "entities",
+  date: "2026-09-29",
+  lastModified: "2026-09-29",
+}
+
+The Owl is the one night boss you beat by **doing nothing**. It cannot be killed, and the entire encounter hinges on a single rule: **when it is watching you, stop moving.**
+
+Everything else in this game rewards running. This one punishes it.
+
+Last verified: **2026-09-29**.
+
+## The Core Mechanic: The Eye Icon
+
+When The Owl lands nearby, an **eye icon appears above your character**. Watch it:
+
+| Icon | Meaning | What to do |
+|---|---|---|
+| **White** | It has not detected you | Keep doing it — you are safe |
+| **Red** | It detected movement | **Freeze immediately** |
+
+If the eye fills completely red, The Owl turns hostile and attacks. **If it never fills, it flies away on its own** — and that is the whole fight.
+
+So the counter is: **stand perfectly still the moment it lands.** Not crouch, not back away — still.
+
+Two details that make this survivable:
+
+- **Swinging a weapon does not alert it.** You can stand still and kill incoming wolves without breaking the freeze. This matters, because it spawns wolves on purpose.
+- **Once hostile, it behaves like [The Deer](/en/entities/the-deer).** Light stuns it, campfire light pushes it off, and terrain can block it.
+
+## Warning Signs
+
+You get told before it happens:
+
+- **Wind picks up at nightfall.**
+- **A message appears: "The Owl has woken up,"** usually with a short cutscene.
+- **The night is randomised** — you cannot predict which night it will be, so prep every night once you are in a Snow biome run.
+
+Hearing the wind is your cue to get back toward camp and stop whatever you were doing in the open.
+
+## What Happens If You Move
+
+Per player reports, the failure state is worse than a normal hit: if The Owl has landed on or near your campfire and you move, it can **grab you and drop you outside the fire's light** — sometimes near The Deer. At low health, the fall alone can kill you.
+
+Treat that as the reason the freeze rule is not optional.
+
+## The Owl at a Glance
+
+| Property | Value |
+|---|---|
+| Killable | No — invulnerable while hostile |
+| Damage | 25+ per swoop, rising with the day count |
+| Speed | Faster than The Deer |
+| Tameable | No |
+| Active | Night only |
+| Replaces | The Deer, on some nights |
+| Drops | 0–1 Feather — **only if it leaves peacefully** |
+
+That last row is the one people get wrong. **You do not get feathers for fighting it.** Feathers drop when it flies away without turning hostile. Several sites claim you can kill The Owl for 1–3 feathers per kill — that is false, and it will get you killed trying.
+
+## How It Differs From The Deer
+
+| | The Deer | The Owl |
+|---|---|---|
+| Counter | Run to the campfire | **Stand still** |
+| Triggered by | Sound, movement, low fire | Movement only |
+| Replaced by biome | Snow → Owl, Volcanic → Ram | Appears in place of The Deer |
+| Passive state | Dormant on night 1 | Passive variant perched at the Owl's Nest |
+
+**If The Owl is active, The Deer will not spawn that night** (Cultist Attack nights excepted). It also stops appearing after Day 99.
+
+## The Wolf Bait
+
+This is the mechanic that catches experienced players: **The Owl can spawn wolves nearby while it is watching you.** The wolves are not the threat — they are bait. Moving to fight them is what fills the eye icon.
+
+The correct response is counter-intuitive: **stand your ground and swing.** Weapon swings do not alert The Owl, so you can clear the wolves without breaking the freeze.
+
+## Feathers and the Owl's Nest
+
+Feathers are the payoff for doing nothing correctly. Since the **Biome Refresher** update of 22 August 2026, there is a second way to use them:
+
+- A **passive Owl perches above the Owl's Nest** in the Snow biome. It does not attack.
+- **The nest accepts Feather deposits** in exchange for Snow biome rewards.
+- Feathers also feed older crafting recipes — the **Mammoth Helmet** takes owl feathers plus coal at the Tool Workshop.
+
+So the loop is: survive the night by freezing → collect the feather → deposit it at the nest. Dying to it costs you the feather as well as the night.
+
+Details are on [Update Log & Patch Notes](/en/guides/updates-patch-notes).
+
+## Where You Meet It
+
+The Owl is tied to the **Snow biome** and is reported around the **Ice Temple**, but it also appears in the Forest on nights when it replaces The Deer. It can pursue you across open ice and, per some reports, into structures — so a cabin is not automatically safe.
+
+It is the **only entity in the game capable of scaring The Deer away**, and its jumpscare sound is the same one The Deer uses.
+
+## What Not To Do
+
+- **Do not run.** Running is the trigger.
+- **Do not fight it.** It is invulnerable while hostile, and there is no feather reward for trying.
+- **Do not chase the wolves it spawns.** Swing from where you stand.
+- **Do not assume you are safe at low health.** The grab-and-drop can kill on its own.
+- **Do not rely on a structure.** It has been reported following players inside.
+
+## Quick Reference
+
+| Question | Answer |
+|---|---|
+| How do you survive The Owl? | Stand completely still |
+| What does the eye icon mean? | Red = it saw you move; white = safe |
+| Can you kill it? | No |
+| Do you get feathers for fighting it? | No — only if it leaves peacefully |
+| What is the warning? | Wind at nightfall, plus "The Owl has woken up" |
+| Does it spawn wolves? | Yes, to bait you into moving |
+| Does The Deer spawn the same night? | No, except on Cultist Attack nights |
+| What are feathers for? | Depositing at the Owl's Nest; Mammoth Helmet crafting |
+
+## Related Pages
+
+- [The Deer](/en/entities/the-deer) — the night boss The Owl replaces, and how its counter is the opposite
+- [Update Log & Patch Notes](/en/guides/updates-patch-notes) — the Biome Refresher update that added the Owl's Nest
+- [Missing Kids Locations](/en/locations/missing-kids) — the wolf and bear caves you clear while it watches
+- [How to Get Wood Fast](/en/items/how-to-get-wood-fast) — the campfire that stuns it once it turns hostile
