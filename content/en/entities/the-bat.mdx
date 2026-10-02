@@ -1,0 +1,220 @@
+export const metadata = {
+  title: "The Bat in 99 Nights in the Forest: A Blind, Unkillable Monster That Only Hears You — and Why Its Scream Is the Smallest Part of the Problem",
+  description: "Where the Bat lives, why \"Bat Cave\" is the wrong name to search for, the four-phase scream loop, the damage dispute between \"only a little damage\" and a published 35, whether the flashlight can interrupt it, why the counter that works on The Owl fails here, and what the Deer is Hurt cutscene has to do with getting into the cave at all.",
+  category: "entities",
+  date: "2026-10-02",
+  lastModified: "2026-10-02",
+}
+
+Most monsters in [99 Nights in the Forest](/locations/all-locations) are answered the same way: charge a light, reach the fire, or outrun them. The Bat answers to none of those, because it is the one monster that was built as a **territory** rather than a chase. It cannot be killed, it cannot see you, and it does not follow you — and that combination is why players who handle [The Deer](/entities/the-deer) and [The Owl](/entities/the-owl) confidently still die in the dark to a creature with no health bar.
+
+This page is about the Bat as an entity: what it is, what it does on a second-by-second basis, and where the sources disagree in ways that change how you play. The cave layout, the statue blessings and the loot question are covered on [The Caverns](/locations/the-caverns) and are not repeated here.
+
+## At a Glance
+
+| | |
+|---|---|
+| **Name** | **The Bat** — sometimes written "Bat Entity" |
+| **Type** | Monster entity — one of the **five unkillable monsters** |
+| **Where** | Underground only: the Caverns, and the cave that carries its name |
+| **Spawns** | **Any time of day** — unlike Deer, Owl, Ram and Cat, which are night-only |
+| **Health** | **N/A — no health bar, cannot be damaged** |
+| **Vision** | **Blind.** It detects you by **sound and proximity** |
+| **Mobility** | Flies a **fixed patrol path**; it cannot walk and does not pathfind after you |
+| **Attack** | **Sonic screech** — ranged, area of effect, blurs your screen and rings your ears |
+| **Bonus effect** | Each scream **summons cultists** into the cave |
+| **Counter** | **Break line of sight and get quiet** — not a fight, not a freeze |
+| **Can it reach your campfire?** | **No.** It is the only monster that cannot |
+| **Added** | **22 November 2025**, in the Bat Entity / Cave update |
+| **Teased** | **15 November 2025**, in the Deer is Hurt update |
+
+## A Name Problem First, Because It Costs People Runs
+
+Three names describe overlapping things, and mixing them up is why so many Bat searches land on a guide about a cave that does not exist any more.
+
+- **The Caverns** — the cave *system*: four connected areas, four statue rooms, the Bat plus three cave-only cultist variants. This is the name RBLXGuide and this site use, and the fandom wiki uses it too.
+- **Caves** — what the **game itself** calls it. Per the fandom wiki, the in-game Daily Quests board says "Caves"; the wiki says "Caverns" to separate this place from smaller caves such as Locked Caves, [Frog Cave](/locations/frog-cave) and the Polar Bear Cave.
+- **Bat Cave** — **a name the fandom wiki explicitly calls obsolete.** It writes that "Caverns" is used to distinguish the main system from smaller caves including "the now-defunct Bat Cave." Several guides still lead with "Bat Cave," including [our own location guide](/locations/all-locations) notes on the cave marker, and Pro Game Guides still writes "the main Bat Cave."
+
+If you are looking for the Bat, the system is the Caverns. Treat "Bat Cave" as the old label for it — and note that the Bat's own lair is still individually referred to as **Bat's Cave**, which is the thing the fandom cutscene takes place in.
+
+## What Kind of Monster It Is
+
+The Bat is not a stronger Deer with wings. It shares nothing with the chase loop, and the differences are what make it manageable:
+
+| | **The Deer** | [The Owl](/entities/the-owl) | **The Bat** |
+|---|---|---|---|
+| **Counter** | Run to the campfire | **Stand completely still** | **Hide behind cover, then be quiet** |
+| **Triggered by** | Sound, movement, a low fire | Movement only | **Sound and proximity** |
+| **Does it chase?** | Yes, relentlessly | Yes, once hostile | **No — it never follows you** |
+| **Leaves its area?** | No (campfire holds it) | No | **No — never leaves the caves at all** |
+
+Two distinctions matter more than the rest.
+
+**It is the only monster that spawns in daytime too.** The Deer, Owl, Ram and Cat are night creatures. The Bat is active whenever you are down there, which means the usual "wait for sunrise" answer does not apply.
+
+**It is the only monster that cannot reach your campfire.** That is not a balance quirk, it is the whole design: the Bat is confined underground, so a cleared cave is the only place on the map where nothing surface-level can reach you. If a night goes badly, the caves are where you spend it.
+
+The fandom wiki's trivia list carries a handful of firsts for it, all published in one place and therefore uncorroborated elsewhere: the first monster entity to **attack another monster entity**; the only monster that can appear even when two monsters are already in play; the only blind entity; the only one that does **not chase you once it detects you**; the only one that can only attack inside a fixed area; the only one without arms; the second entity in the game to fly (after the Owl) and one incapable of walking; and the first monster with **no jumpscare** — instead, a high-pitched noise plays when a player dies.
+
+## The Deer is Hurt: The Cutscene That Gated the Cave
+
+Before the Bat became an encounter, it was a locked door.
+
+Per the fandom wiki, during the **Deer is Hurt update (15 November 2025)** the Bat appeared only as a pair of **eyes watching from inside its cave**. The only thing a player could do near it was make it screech when they approached the entrance. There was no way to interact with it.
+
+Then the sequence resolves in an order that surprises people:
+
+1. You help [The Deer](/entities/the-deer) recover from its injury.
+2. On full recovery, **The Deer attacks the Bat in a short cutscene.**
+3. When the cutscene finishes, the player is able to enter the Bat's Cave.
+
+So the Bat's lair was gated behind a Deer quest, and the thing standing between you and the cave was, briefly, the Deer fighting the Bat. The fandom wiki adds that in cutscenes the Bat is stronger than a normal Deer but **not** stronger than a hungry one — which is the only scale anyone has ever offered for how hard the Bat actually hits.
+
+That is also why the Bat is the reason the cave exists at all, and why the cave walls are covered in paintings about the Bat's conflict with the Deer. The conflict is the update's story, not flavour text.
+
+## How the Encounter Actually Runs
+
+Every account we found describes the same four-beat loop. The phases are where the agreements stop and the vocabulary starts, so the table shows both:
+
+| Phase | What you see | What it does | The counter |
+|---|---|---|---|
+| **Wind-up** | The Bat **lifts its head and flaps its wings**; a **rising screech meter** fills above it (the fandom wiki's other page describes the same tell as a bat icon slowly filling with red) | Nothing yet | Move behind a wall or rock now. Sources put the window at roughly a second or two |
+| **Screech** | A **rapidly expanding red sphere** leaves the Bat and spreads through the cave — a visible hitbox, not an invisible radius | Damage, plus **blurred screen and ringing ears** | Stay behind solid cover, or put enough distance between you and the Bat |
+| **Summon** | Cultists appear in the nearby tunnels | Melee and ranged pressure, often what actually finishes you | Thin them out with ranged weapons before they stack |
+| **Retreat** | The Bat flies off to the next node on its patrol path | Nothing, until the next cycle | Heal, reload, loot, or push deeper. **This is the window** |
+
+Two mechanical details are worth separating out.
+
+**Cover is total, distance is partial.** Walls and rocks block the screech completely. Distance is a weaker answer: Pro Game Guides says the wave weakens if you get far enough away, and the fandom wiki's trivia call the Bat "the only entity to only attack in a specific area." Cover is the rule; running is the fallback.
+
+**The loop repeats.** The Bat does not appear once. It screeches on entering, then flies deeper, then reappears in later sections — the fandom wiki warns you plainly about the first chamber: "the Bat and several cultists will spawn on top of you and you haven't cleared out any room to manoeuvre yet."
+
+## The Scream's Damage: Pick Your Fighter
+
+This is the one place where the sources do not merely disagree in wording — they disagree about whether the Bat can hurt you very much.
+
+**One side says the damage is small.** The fandom wiki's cave page describes the screech as "**only a little damage**," with the real effects being the blurred screen and the ringing that makes fighting the cultists harder. Every subsequent complaint about the Bat that we read is about the *chaos*, not the hit points.
+
+**The other side puts a number on it.** RBLXGuide gives **35 per hit**. It is the only source we found that publishes a figure at all.
+
+We are not going to pick one and present it as settled, and here is the reason we think the argument is mostly a category error: **the number and the description may not be measuring the same thing.** A damage figure with no stated scope — one hit, one screech, a duration — cannot be checked against a phrase like "only a little damage," and no source we found states the scope.
+
+What the sources *agree* on is the part that should change your behaviour:
+
+> The screech's job is to blind and disorient you. The cultists it summons are what hurt you.
+
+Every guide that offers survivable advice makes that same move: get to cover, then deal with the cultists. Whether the screech takes 10 or 35, going in blind while six cultists close in is the failure state. **Our reading:** treat the screaming as a mechanic that removes your vision and adds bodies, and treat the hit points as secondary — and if you want the 35 to be true, treat it as an upper bound from a single source rather than a baseline.
+
+## The Flashlight: Stun, Interrupt, or Useless?
+
+This is the second live disagreement, and unlike the damage argument it now has enough sources to be worth reasoning about rather than just recording.
+
+- **"It cannot be stunned."** The fandom wiki states this flatly — the Bat is blind, so the flashlight does nothing to it — and it is the reason the wiki says the Bat "can only be hidden from." BloxSwaps and BloxGuides both repeat the no-flashlight reading.
+- **"It can be interrupted."** Deltia's Gaming says pointing your flashlight directly at the Bat **stuns it and cancels the scream**. Pro Game Guides independently says the same thing: shine the light at it before it screams and it is **temporarily startled, cancelling the attack**.
+
+Three sources against two is not a clean majority — but the disagreement may be a naming one rather than a factual one.
+
+**Our reading:** on The Deer or the Owl, a light buys you a *long* stun — enough to walk away and do something else. On the Bat, nothing we found claims that. Both sides may be describing the same underlying behaviour: **the light can break one screech, but it cannot hold the Bat still.** That would make the fandom wiki right about the stun and Deltia's Gaming and Pro Game Guides right about the interrupt, at the same time.
+
+The practical version, whichever is true in your build: **a beam in its face is a free second attempt at the wind-up window, not a defence.** Do not plan a route around holding the Bat in place, because no source supports being able to.
+
+## It Hears You: Why the Freeze Trick Fails Here
+
+There is one piece of Bat behaviour that no single guide states as a rule, but that four of them state as facts, and it is the most useful thing on this page.
+
+The Bat is **blind**, and it is repeatedly described as having **extremely sharp hearing** — Deltia's Gaming, BloxSwaps and All Things How all say some version of "it listens rather than looks," and All Things How lists its detection as **proximity and sound**. The fandom wiki adds that due to its blindness it "can only be hidden from."
+
+Put those together and you get the reverse of the Owl lesson, which is the mistake experienced players make:
+
+| | **The Owl** | **The Bat** |
+|---|---|---|
+| Wrong move | Moving — including running away | **Being loud** |
+| Right move | Freeze in place | **Get behind something and stop making noise** |
+| So you should… | Stand still and swing your weapon | Move *between* cover points, then hold still inside them |
+
+Standing still in the open against the Bat does nothing, because standing still is not the problem — being *heard and seen by proximity in a wide open corridor* is. Worse, the instinct built by the Owl ("do not move, do not react") is exactly what leaves you standing in the middle of a corridor when the meter fills.
+
+So the cave discipline is inverted:
+
+- **Move while you move under cover**, and hold position when the meter starts filling.
+- **Do not fight the noise.** Shots, grenades, sprinting and shouted callouts are how the Bat knows roughly where you are. Being loud is the same as being lit up.
+- **Light the cave, not yourself.** Charging the wall crystals with your flashlight is what makes the patrol path readable — and the fandom wiki's own first-chamber advice is to light the big crystal **before going down the stairs**, rather than walking in dark and putting yourself at the top of the room.
+- **Fireflies refill your flashlight.** Per the Strong Flashlight item page on our source wiki, battery is recharged by standing near a campfire **or by making contact with fireflies**; several cave guides repeat that glowing fireflies respawn at the same spots and refill the battery. A dead torch is not survivable down here.
+
+## What It Will Not Do
+
+Four behaviours are worth stating as rules, because players plan routes around them:
+
+- **It never enters your campfire.** Not at night, not during a raid, ever. It is confined to the caves.
+- **It does not walk.** It flies, and it is the second flying entity in the game.
+- **It does not chase.** Once you are away from it, it goes back to its patrol nodes — it does not pathfind to your position.
+- **It does not appear on the surface.** All Things How puts it the same way: reach open air and you are out of its domain, which is another way of saying the cave has an exit and its exit is safe.
+
+And a fifth, which is the one that makes [The Caverns](/locations/the-caverns) worth the trip: because no Deer, Owl, Ram, wolf or alpha wolf can go underground either, **a cleared cave is the only place you can spend a night with nothing able to reach you** — apart from the Bat, which you out-range with a wall.
+
+## Loot: There Is No Drop, and That Is Deliberate
+
+The Bat has **no health bar, so it has no death** — and none of the sources we found lists any drop for it, not materials, not food, not a badge. If you came down here to farm something off it, there is nothing to farm.
+
+There is one complication, and it is worth naming rather than smoothing over. **Pro Game Guides states that clearing the Bat Cave also lets you obtain a "Purple Fur Tuft" from the Bat's lair, used for storyline quests and crafting.** That is a single source, and it sits awkwardly next to the fandom wiki's silence on any Bat drop.
+
+**Our reading:** a tuft taken from a *lair* is an environmental pickup in the cave, not a drop from a dead monster — those are different things, and the Bat never dies to give anything up. We record the claim rather than adopt it, and we flag it as our reading because no second source from either side resolves it. What is safe to plan around: **the Bat itself pays you nothing.** Its only contribution to a run is the statue blessing behind it.
+
+## A Run Order That Survives
+
+Drawing on the fandom wiki's chamber notes and the phase table above:
+
+1. **Light the crystal before you descend.** Shine the torch on the large crystal at the top of the first chamber rather than walking into the dark first.
+2. **Let the Bat leave before you commit.** The cave's own advice is to wait until the Bat flies away — knowing it will be back — before moving forward to trigger the first cultist wave.
+3. **Treat each wind-up as a stop sign.** Head up, wings, meter: stop moving into the open. Everything else can wait one second.
+4. **Spend the retreat window.** Between screeches is when you kill, heal, and loot. Dying in the blur is usually a sequencing failure, not a gear problem.
+5. **Never spend your explosives early.** Side chambers are iron-barred and need Dynamite or Impact Grenades. Both are scattered *inside* the cave, so a cave with no charges left cannot open what is behind it.
+6. **Grab fireflies on the way back.** Your torch is the only light you have, and it is the only tool that charges the crystals.
+
+One team rule that catches people out: All Things How notes that if someone is still inside the cave, new players cannot go back in until everyone exits. Do not send a second player in while your team is still deep.
+
+## Common Mistakes
+
+- **Trying to kill it.** No weapon, class or tool reduces anything. The fandom wiki's own wording is that it "can only be hidden from."
+- **Freezing, Owl style.** Standing still in the open does not hide you from a monster that listens. Get behind something.
+- **Treating the scream as free crowd control.** It is the opposite: every screech pulls cultists in. Using it deliberately to thin a room is how you get surrounded.
+- **Assuming the Bat is the threat that kills you.** In most accounts it is the cultists it summons, arriving while your screen is blurred.
+- **Entering on an empty torch.** Battery does not come back from the dark.
+
+## FAQ
+
+**Can the Bat be killed?** No. It has no health bar and cannot be damaged by any means we found. Survive it, then move on.
+
+**Can it be tamed?** Nothing we found records a taming route for it. The animals that can be tamed are covered in the [taming guide](/taming/taming-guide); the Bat is not among them.
+
+**Can the flashlight stop it?** The sources split. The fandom wiki says it cannot be stunned at all because it is blind; Deltia's Gaming and Pro Game Guides both say a direct beam interrupts the scream. Both may be right — the beam may cancel one attack without holding the Bat in place. Plan for cover, not for the light.
+
+**Does it come to my campfire?** Never. It is confined to the caves, which makes it the only monster in the game that cannot reach you.
+
+**Does it spawn during the day?** Yes. It is the one secondary monster that is not night-only.
+
+**What do I get from it?** Nothing, directly. The reward is the statue blessing behind the cave, and per Pro Game Guides the possibility of a Purple Fur Tuft from its lair — a single, uncorroborated claim.
+
+**Why does it scream before I can see it?** Because it does not need to see you. The head-lift and wing-flap are the tell, the meter above it is the countdown, and the red sphere is the hitbox.
+
+**Is it the hardest monster in the game?** The fandom wiki calls it the first monster to attack another monster and notes that it is stronger than a normal Deer but not a hungry one. Its difficulty is positional rather than statistical.
+
+## Sources
+
+Checked 2026-10-02. The **Monster at a Glance table, the Blight-and-sound detection, the first-no-jumpscare and other trivia, the Deer is Hurt cutscene (eyes in the cave, then the Deer attacks the Bat, then the cave opens), and the "only a little damage" phrasing for the screech** are the fandom wiki's Bat page and, for the cave pages, its Blessings/Caverns page; the **"now-defunct Bat Cave"** naming note and the first-chamber advice are also the fandom wiki. The **head-lift and wing-flap tell, the expanding red sphere, stalagmite-or-rock cover, and the "run far enough away" fallback** are the same source and Deltia's Gaming. **Deltia's Gaming and Pro Game Guides independently** say the flashlight stuns or startles the Bat and cancels the screech; **BloxSwaps and BloxGuides** take the opposite side and repeat the fandom line. The **35-per-hit figure** is RBLXGuide alone, with no stated scope — we record it as uncorroborated. The **sound-based detection and the proximity-and-sound rule, the phase table, the "reach open air and you are out of its domain" rule, and the team re-entry constraint** are All Things How, which also supplies the four-phase counter list. **Pro Game Guides** contributes the Purple Fur Tuft claim, the weakening of the wave with distance, and the repeated-screaming encounter structure; **BloxSwaps** contributes the fixed patrol and the "positioning and staying quiet" counter. **Fireflies recharging flashlight battery** comes from the Strong Flashlight entry on our source wiki, repeated by several cave guides. The **22 November 2025 release and 15 November 2025 tease** are the fandom wiki and BloxSwaps; a few guides date the update to 23 November — we follow the earlier date, which is the one the wiki and the majority of guides carry.
+
+## Related Pages
+
+- [The Caverns](/locations/the-caverns) — the cave system it lives in, the statue blessings behind it, and the Tier II question nobody answers
+- [The Deer](/entities/the-deer) — the monster it fought to open the cave, and the one thing stronger than it
+- [The Owl](/entities/the-owl) — the opposite counter: where the Owl wants a frozen player, the Bat wants a hidden one
+- [The Cultist](/entities/the-cultist) — the cave variants the Bat's screams bring in, and how to handle them
+- [All Locations](/locations/all-locations) — why the Caverns are a safe night and the Bat is the reason they are
+- [Volcanic Biome](/locations/volcanic-biome) — where the Ram lives, and the third statue deity
+- [Frog Cave](/locations/frog-cave) — the other dungeon with a unique unkillable-adjacent boss
+- [Ice Temple](/locations/ice-temple) — the other biome-gated dungeon, and the Gem economy instead of blessings
+- [Cultist Stronghold](/locations/cultist-stronghold) — the other repeatable farm, for comparison
+- [How to Get Scrap](/items/how-to-get-scrap) — the currency for everything you brought into the cave
+- [Taming Guide](/taming/taming-guide) — what can actually be tamed instead
+- [Updates and Patch Notes](/guides/updates-patch-notes) — the 22 November 2025 Bat release and the January 2026 cave expansion
