@@ -1,0 +1,249 @@
+---
+concept: "Speedrun"
+---
+
+export const metadata = {
+  title: "Speedrun 99 Nights in the Forest: the Day Counter, the Swiftness Badge and Reaching Day 99 Under 90 Minutes",
+  description: "Speedrunning 99 Nights in the Forest is a clock, not a fight. Here is the day counter behind the 99 days, the 8x-or-9x ceiling, what each bed and rescue adds, the Temporal Accelerometer, real-day events, and which badges a fast run can stack.",
+  category: "guides",
+  date: "2026-10-04",
+  lastModified: "2026-10-04",
+}
+
+# Speedrun in 99 Nights in the Forest
+
+## Quick Answer
+
+| Question | Answer |
+|---|---|
+| What you are actually racing | A **day counter**, not 99 nights. One night is one day unless something raises the multiplier |
+| The base rate | **1 day per night. Day 3 minutes, night 1 minute 30 seconds — a 4-minute-30-second cycle** |
+| What raises it | Every **bed** at the crafting bench (**+1** each) and every **rescued child** (**+1** each), permanently for that run |
+| The ceiling | Sources split between **8x** and **9x** days per night. The majority and the fandom wiki's current text say 9x |
+| The two gates | **Campfire Level 6** (Koala Kid) and **Crafting Bench Tier 4 plus one Gem of the Forest** (the Giant Bed) |
+| The badge | **Swiftness** — reach Day 99 in **under 90 minutes**, worth **4 Diamonds** by three sources, **8** by a fourth |
+| The blocker | Not combat. Wood, scrap, fuel and a Gem — all inside roughly 11 to 17 cycles |
+| The one free badge | **Humiliation** — die on your own bear trap |
+
+Speedrunning this game is not a combat discipline. There is no route through the forest that avoids the night, and no weapon that kills the Deer. What there is, is a single number nobody says out loud until it is already running: **the day multiplier**. Everything on this page is downstream of that one figure, and the reason it has no page of its own is that every source that explains it files it under a heading called *Days*, where it sits between two paragraphs and never gets connected to anything.
+
+## The Day Counter Is Not 99 Nights
+
+The name of the game is the first thing that misleads. You are not asked to survive 99 nights. The fandom wiki's Days page is explicit: each day lasts **3 minutes**, each night lasts **1 minute and 30 seconds**, and one day-night cycle is **4 minutes and 30 seconds**. The game is functionally endless — but the 99th day is treated as the end of the story, it plays a cutscene, and it displays how long the run took, in the form *"reached Day 99 in \[minutes:seconds\]!"*
+
+That last sentence is the Swiftness badge, printed on your screen at the end.
+
+Work out what the base rate costs. At one day per night, 99 days is 99 cycles, and 99 × 4.5 minutes is **445.5 minutes — about 7 hours and 25 minutes** of continuous play. No source we read claims anyone completes a 99-day run in that time, and the arithmetic is why the badge exists at all.
+
+The multiplier is the whole escape hatch. It starts at **+1** per night, and it is raised by two things only: buying **beds** from the crafting bench, and rescuing the **four missing children**. Both stack. Once they do, a single night can be worth eight or nine days, and 99 days stops being seven hours of grinding.
+
+## What Swiftness Actually Asks
+
+| Field | What the sources say |
+|---|---|
+| Badge | **Swiftness** |
+| Requirement | Survive to **Day 99 in less than 01:30** — 90 minutes |
+| Reward | **4 Diamonds** (99nightsintheforest.wiki, allthings.how, theclick.gg) |
+| The dissenting figure | **8 Diamonds** — ofzenandcomputing lists 8 where every other table lists 4 |
+| Difficulty | Rated **two stars** by allthings.how |
+| How it is measured | Real elapsed time from spawn to the Day 99 cutscene, as printed on the end screen |
+
+Four sources agree on the 90-minute figure and none of them qualms about it. That part is settled. The reward is not: four sources say 4 Diamonds and one says 8, and the disagreement is printed rather than resolved below.
+
+One thing worth stating plainly, because it is the single most useful fact on this page. **90 minutes is not a stretch target measured against the base rate — it is roughly one sixth of it.** At 1x, the badge is arithmetically impossible at any human pace. It can only be won through the multiplier, which means a Swiftness attempt is a resource-efficiency run that happens to involve combat, not the other way round.
+
+## The One Number That Decides Everything
+
+The rule is short enough to hold in your head:
+
+> One night survived advances the day counter by **one day**. Each **bed** you have built adds **+1**. Each **child** you have rescued adds **+1**. Nothing else moves it.
+
+Both halves are permanent for the run. The fandom Days page says it outright: the multiplier starts at +1, only one day passes per night survived, and by rescuing the kids and buying beds from the crafting bench the counter can be increased — the current text says to **9 days covered per night**, the earlier revision said **8**. Our own [Missing Kids](/locations/missing-kids) page already carries the +1-per-rescue half of this, and our [How to Get Diamonds Fast](/items/how-to-get-diamonds-fast) page tells you to build beds and rescue kids to push the counter faster. Neither can say *how much faster*, because neither states a ceiling. This page is where that number lives.
+
+## The Ceiling Nobody Agrees On: 8x or 9x
+
+This is the one figure on the internet about this game that genuinely does not reconcile, so it is worth walking through rather than quoting a number and moving on.
+
+| Source | Ceiling | Notes |
+|---|---|---|
+| Fandom wiki — **current** Days text | **9x** | The page's present wording |
+| Fandom wiki — **earlier revision** | **8x** | Visible in the page's own revision history |
+| Miraheze wiki mirror of Days | **9x** | Matches the current fandom text |
+| 99nightsintheforest.wiki (Badges) | — | Says beds accelerate day progression, **Giant Bed +3 days per night** |
+| getnovaplay | **9x** | "up to 9 days per night" |
+| Backyard Drunkard | **9x** | "the multiplier can reach a maximum of 9×" |
+| Trioner | **8x** | "combine both methods … jump to a massive 8x" |
+| Our Missing Kids page | **9x** | Consistent with the majority |
+
+Two attempts at a reconciliation, offered as arithmetic rather than fact:
+
+**The bed-slot theory.** Four bed tiers exist and four kids exist, so 1 base + 4 beds + 4 kids = **9**. The 8x figure is what a three-bed cap produces: 1 base + 3 beds + 4 kids = **8**. This also fits a datapoint nobody else uses — the fandom Days page's own gallery caption shows a **day 29** counter with one child recently rescued, and describes the increase as **+5**. One base + three beds + one child = **5**. That is a snapshot of a 3-bed run, and it is the most likely origin of the older 8x figure.
+
+**The Giant Bed theory.** One wiki claims the **Giant Bed alone is worth +3 days per night**, which does not fit the flat +1 that every other source describes. Taken literally, 1 base + 3 flat beds + Giant Bed (+3) + 4 kids = 9 as well. Both routes land on the same ceiling; only the shape of it differs, and nothing we read explains which is live.
+
+What is **not** in dispute: the multiplier is additive, it is based on beds plus children only, and the practical ceiling is well above the base rate. Whether it is 8 or 9 changes a single night in a run. Whether you reach it at all changes everything.
+
+## The Beds: Four Recipes, Each Worth One Day
+
+Beds are passive. You do not lie in them to get the effect — they add +1 to the day counter the moment they are built and placed in camp. This trips up most first-time speedrunners, who wait for a sleep button that does not exist.
+
+| Bed | Bench tier | Material cost | Effect |
+|---|---|---|---|
+| **Old Bed** | 1 | **20 Wood** | +1 |
+| **Regular Bed** | 2 | **5 Scrap** | +1 |
+| **Good Bed** | 3 | **10 Wood + 10 Scrap** | +1 |
+| **Giant Bed** | 4 | **20 Wood + 30 Scrap + 1 Cultist Gem** | +1 (one source claims +3) |
+
+The full recipe tree, and the tier ladder it hangs off, is on our [Crafting Bench](/locations/crafting-bench) page. The Gem question — whether the tier-5 machines eat a **Cultist Gem** or a **Gem of the Forest** — is a separate fight the wikis are having with themselves, and it is settled on our [Cultist Gem](/items/cultist-gem) page.
+
+Note what that totals. **All four beds cost 50 Wood, 45 Scrap and one Gem.** That is the real bill for a speedrun, and it is a wood-and-scrap problem, not a kill-count problem.
+
+Two sources conflict on placement. Backyard Drunkard, the recipe source above, implies four beds are craftable and useful. Trioner says you can **place up to three** beds and their effects stack with each rescued child. If the three-bed cap is live, the fourth recipe is a trap you build for nothing — so verify it in game before you spend 20 Wood, 30 Scrap and a Gem.
+
+## The Four Rescues, and Their Campfire Gates
+
+Rescues are the second half of the multiplier, and unlike beds they are gated. You cannot rush them, because **the cave door does not open below a campfire level**, and the ladder runs all the way to the top.
+
+| Kid | Guardians | Key | Campfire needed |
+|---|---|---|---|
+| **Dino Kid** | 5 Wolves, red collars | Red | **Level 2–3** |
+| **Kraken Kid** | 4 Alpha Wolves, blue collars | Blue | **Level 4** (some sources say 3–5) |
+| **Squid Kid** | 2 Bears, yellow collars | Yellow | **Level 5** |
+| **Koala Kid** | 6 Bears, black collars | Grey | **Level 6** |
+
+That is our own table from the [Missing Kids](/locations/missing-kids) page, which lists the guardians, the key colour each cave drops and the campfire gate for all four. Two cross-source notes: one guide gives the second cave as **five** alpha wolves rather than four, and the fourth as **five** bears rather than six. Neither changes the shape of the problem.
+
+**Here is the speedrun insight nobody publishes.** Your last +1 — the one that turns a 7x run into 8x or 9x — is locked behind **campfire Level 6**. Campfire level 6 is the top of the firemaking ladder, the level that reveals the entire map, and getting there is a fuel grind. Your multiplier is therefore not maxed until very late in the run, which means the first several nights barely benefit from anything. Plan for a ramp, not a flat ceiling. All six levels and their costs are on our [Campfire](/guides/campfire) page; the wood maths that feeds them is on [How to Get Wood Fast](/items/how-to-get-wood-fast).
+
+## Doing the Arithmetic of a 90-Minute Run
+
+All of the following is **our arithmetic**, not a published route. Nobody we read publishes a verified speedrun line, a split table or an accepted record — and one guide claiming a **47-minute** world record comes from a page whose other statistics are presented without any source at all, so we have excluded it rather than print it as a target.
+
+Divide 99 days by the multiplier and you get the number of nights you have to sit through:
+
+| Average multiplier | Nights to reach Day 99 | Cycle time | Pure clock time |
+|---|---|---|---|
+| 3x | 33 | 4 min 30 s | ~2 h 29 m |
+| 5x | 20 | 4 min 30 s | ~1 h 30 m |
+| 7x | 14 | 4 min 30 s | ~1 h 03 m |
+| 9x | 11 | 4 min 30 s | ~49 m 30 s |
+
+Read the right column and the badge stops looking mysterious. **An 11-night run is 49 minutes and 30 seconds of cycle time alone**, with the multiplier already at its ceiling. Add rescue travel, cave clears, bed crafting and the campfire grind, and 90 minutes is a tight but coherent budget. A 14-night run sits at roughly an hour and three minutes of pure cycle time, which leaves far less room for the four cave clears that gate half your multiplier.
+
+The consequence is that the run is decided in the **first three cycles**, not the last ninety. What you do before night three — Old Bed at bench tier 1, Dino Kid the moment the fire hits level 2, the Regular Bed at tier 2 — sets the ramp for everything after it. One guide puts it well: the deer does not attack on the **first night**, so that window is the safest chopping, hunting and rabbiting time you ever get, and it is the correct time to be doing wood rather than exploring.
+
+## The Temporal Accelerometer and Every Other Way to Burn a Cycle
+
+| Way | What it costs | What it does |
+|---|---|---|
+| **Temporal Accelerometer** (bench tier 5) | **40 Wood + 40 Scrap + 1 Gem of the Forest** | Skips a day/night cycle once charged |
+| **All four beds** | 50 Wood, 45 Scrap, 1 Gem | +1 each, permanently |
+| **All four rescues** | Four cave clears | +1 each, permanently |
+| The multiplier itself | Time | The only thing that scales |
+
+The Temporal Accelerometer is the one active burner. Our [Crafting Bench](/locations/crafting-bench) page gives the tier-5 trio — Respawn Capsule, Temporal Accelerometer, Weather Machine — and states the cost as **40 Wood + 40 Scrap + 1 Gem of the Forest** each. The fandom Days page's trivia section describes the same item more loosely as skipping the night cycle "at the cost of **1 Cultist Gem**". Same item, two different Gem names, and the naming fight is documented on our [Cultist Gem](/items/cultist-gem) page.
+
+Should you build it in a speedrun? Probably not. It is behind bench tier **5**, which is one tier above the Giant Bed you already need, and it costs another Gem that you are competing for. Three cycles skipped at 9x buys you roughly 27 days of counter — which is genuinely good — but you cannot get to it before the run is nearly over. Build the beds first.
+
+A note on the Weather Machine, because speedrunners ask: no rain and thunder for three days. That is a comfort item with a Gem price tag, and nothing we read links it to the badge.
+
+## What Still Fires on Real Days
+
+The multiplier is a shortcut around the *counter*, not around the early game. One guide is the only source we found that spells out the exception, and it is the most important scheduling rule on this page:
+
+- **Day 1 to 10 events fire on real days**, regardless of your multiplier. You cannot multiply your way past the opening.
+- **The Pelt Trader arrives on real Day 2**, then every **3 to 4 days**.
+- **The first Cultist Raid is real Day 4**, then roughly every **four days**.
+- **Monsters wake on a real clock**: the Deer from Day 2, and one of the Owl, Ram or Cat from Day 5 — not all three.
+
+If that schedule is right, it is a hard constraint on the route. A run at 9x would otherwise blow through Day 4 before you had chopped a full campfire's worth of wood, and the raid — see [The Cultist](/entities/the-cultist) for the wave types — arrives whether or not your counter is ready. It is single-source, so check it in game rather than planning the whole opening around it.
+
+## Which Badges a Single Fast Run Can Carry
+
+A fast run is not one badge, it is an opportunity to stack. These are the ones a deliberate 90-minute attempt can plausibly cover in the same session — and the ones that fight each other.
+
+| Badge | Requirement | Diamonds | Conflict |
+|---|---|---|---|
+| **Swiftness** | Day 99 in under 90 minutes | **4** | One source says 8 |
+| **Survive 10 days** | Reach Day 10 | **2** | — |
+| **Survive 20 to 100 days** | Each day milestone | **4** each | — |
+| **Durability** | Day 99 without dying or being revived | **4** | allthings.how says 6, another says 8 |
+| **Vegetarian** | Day 99 without eating meat | **4** | ofzenandcomputing says 8 |
+| **Teamwork** | Day 99 with a team of five | **8** | Consistent across sources |
+| **Orienteering** | Rescue all four children | **4** | **Mutually exclusive** with Self-Preservation |
+| **Self-Preservation** | Day 99 with zero rescues | **4** | **Mutually exclusive** with Orienteering |
+| **Humiliation** | Die by stepping on your own bear trap | **4** | It wants you to fail |
+| **Taming** | Tame an animal with a Taming Flute | **2** | — |
+| **Crafting** | Upgrade the bench to tier 4 | **2** | You build that bed, so it is nearly free |
+| **Firemaking I–IV** | Campfire levels 3, 4, 5, 6 | **2, 2, 2, 4** | The speedrun ladder *is* this badge |
+
+**Orienteering and Self-Preservation cannot both be earned in one run.** One needs all four rescues, the other needs none, and four rescues is the difference between 1x and 5x. That is the single hardest decision on this page: if you want Orienteering, your multiplier is capped much lower for the whole run and Swiftness gets harder. If you want Swiftness, you are probably taking Self-Preservation and skipping the best loot in the game — all four cave chests, whose tiers are on [Chest Tiers](/items/chest-tiers).
+
+**Humiliation is the free one.** Die on a bear trap you placed, and it is done in about ten seconds, in the first five minutes, for 4 Diamonds. It is the only badge whose requirement is a failure. See [Bear Trap](/items/bear-trap) for the cost and the placement rules.
+
+Two other economy notes. First, badge rewards pay **only on first unlock** — repeating a condition gives nothing. Second, the badge count and total payout are themselves disputed: one wiki says there are **27 badges** in the game, while the fandom Badges page lists far more than that and states that completing every normal and event badge yields **292 Diamonds**, with **186** coming from the normal badges alone. Those two totals are not reconcilable from the tables we can read, so print them as reported figures rather than as a farming target. The [How to Get Diamonds Fast](/items/how-to-get-diamonds-fast) page is the honest place to start from.
+
+Finally, the unobtainables. The fandom Badges page claims that the two lowest-starred badges — **Reconstruction** and **Baiting** — are **currently unobtainable**, while the same page's own list describes Baiting as craftable. Another source lists Baiting as an active goal with an unrewarded requirement. Do not build a plan around either.
+
+## Where Sources Disagree
+
+Nine open questions, all of them small except the first.
+
+1. **The ceiling: 8x or 9x.** Fandom's current text, Miraheze, getnovaplay, Backyard Drunkard and our own Missing Kids page say 9x. Fandom's earlier revision and Trioner say 8x. Our arithmetic suggests the 8x came from a three-bed cap.
+2. **The Giant Bed's value.** One wiki says **+3 days per night**; every other source says every bed is a flat **+1**. The two do not coexist.
+3. **How many beds you can place.** Four tiers are craftable; one source says only **three** can be placed.
+4. **Swiftness's Diamond reward.** Three sources say **4**, one says **8**.
+5. **The Temporal Accelerometer's Gem.** Our bench page says **1 Gem of the Forest**; the fandom trivia says **1 Cultist Gem**.
+6. **The early-game schedule.** The rule that Day 1–10 events, the Day 2 Pelt Trader and the Day 4 raid fire on *real* days rests on a single source and is the load-bearing assumption of the whole route.
+7. **Guardian counts in cave two and four.** One guide gives 5 alpha wolves and 5 bears; our Missing Kids page says 4 and 6.
+8. **How many badges exist.** **27** by one wiki; the fandom table is much longer, and its own total-payout figures (292 and 186) do not sum from the reward column.
+9. **Which badges are unobtainable.** Fandom calls Reconstruction and Baiting unobtainable while listing Baiting as craftable; another source lists them as active.
+
+## FAQ
+
+**Is Swiftness even possible?**
+That is the honest question and no source we read answers it with a verified run. The arithmetic says an 11-night run at the 9x ceiling is 49 minutes and 30 seconds of pure cycle time, which leaves about 40 minutes for four cave clears, four beds and a Level 6 campfire. Tight, coherent, unverified.
+
+**Do I have to survive the nights to get the counter?**
+Yes. The multiplier changes how much each night is *worth*, not whether it happens. Surviving the night is the trigger.
+
+**Can I use the Temporal Accelerometer to skip most of the run?**
+It skips one cycle for one Gem, and it sits at bench tier 5 — a tier past the Giant Bed you already need. Three cycles at 9x is roughly 27 days of counter, which is excellent, but you will not reach it before the run is nearly done.
+
+**160 minutes or 90 — does the multiplier change what I gather?**
+It changes what is *worth gathering*. Wood, scrap and fuel are the speedrun currencies; kills and chests are the reward for finishing. The four caves are where the multiplier comes from, though, so a speedrun is not a collection run.
+
+**Which class for a speedrun?**
+The classes that add out-of-combat throughput rather than damage. Our [Best Class](/classes/best-class) page ranks them; [Lumberjack](/classes/lumberjack) is the one that feeds the fuel ladder this run lives on.
+
+**Should I speedrun on Hard Mode?**
+No. Our [Hard Mode](/guides/hard-mode) page documents a Corruption meter, a 90-second food rot and a mode that is one-way once started. It is the opposite of a speedrun environment, and an abandoned attempt pays nothing.
+
+**Do dying and reviving cost me the badge?**
+Dying costs you **Durability**. The wording across sources is "without dying" and "without dying or being revived", and nothing we read states whether a death resets the run clock. Treat any death as lost time.
+
+**Do badges pay again if I redo them?**
+No. Rewards land on the **first** unlock only.
+
+## Sources
+
+Checks carried out on **4 October 2026** against the [fandom wiki Days page](https://99-nights-in-the-forest.fandom.com/wiki/Days) (whose own revision history shows the 8x-to-9x wording change), the [fandom Badges page](https://99-nights-in-the-forest.fandom.com/wiki/Badges), the [Miraheze Days mirror](https://99nightsintheforestroblox.miraheze.org/wiki/Days), [99nightsintheforest.wiki](https://99nightsintheforest.wiki), the [theclick.gg badge tracker](https://www.theclick.gg/99-nights-in-the-forest-badge-tracker), [allthings.how](https://allthings.how/?p=84664/), [ofzenandcomputing](https://www.ofzenandcomputing.com/99-nights-forest-complete-badges-guide), [Trioner](https://trioner.com/99-night-in-the-forest-how-to-progress-faster-by-skipping-days/), [Backyard Drunkard](https://backyarddrunkard.com/games/99nitf-beds/), [getnovaplay](https://www.getnovaplay.com/en/blog/how-to-play-99-nights-in-the-forest-on-pc) and newgame.co.jp. Where a claim rests on one source — the real-day event schedule, the +3 Giant Bed, the three-bed placement cap, the 47-minute record we excluded, the 292/186 diamond totals — it is attributed in the text rather than restated as fact here. All cycle-time and multiplier arithmetic on this page is ours and is labelled as such where it appears.
+
+## Related Pages
+
+- [Missing Kids](/locations/missing-kids) — the four rescues, their campfire gates, and the +1 each one permanently pays
+- [Campfire](/guides/campfire) — the six-level ladder that gates the last rescue, and every Firemaking badge
+- [How to Get Wood Fast](/items/how-to-get-wood-fast) — the fuel grind this whole run is made of
+- [How to Get Scrap Fast](/items/how-to-get-scrap) — the Regular and Good Beds both need it
+- [Crafting Bench](/locations/crafting-bench) — the five tiers, the full recipe tree, and the Temporal Accelerometer
+- [Cultist Gem](/items/cultist-gem) — the Gem of the Forest that the Giant Bed and the tier-5 machines compete for
+- [How to Get Diamonds Fast](/items/how-to-get-diamonds-fast) — what the badge payout totals up to, and when to switch to Hard Mode
+- [Bear Trap](/items/bear-trap) — the ten-second Humiliation badge, and how to place it well
+- [The Cultist](/entities/the-cultist) — the Day 4 raid the multiplier cannot help you skip
+- [The Deer](/entities/the-deer) — the monster that does not attack on night 1, and the window that is therefore yours
+- [The Alpha Wolf](/entities/the-alpha-wolf) and [The Bear](/entities/the-bear) — the two guardians between you and half the multiplier
+- [Chest Tiers](/items/chest-tiers) — what you give up by taking Self-Preservation instead of Orienteering
+- [Best Class](/classes/best-class) — the throughput picks rather than the damage picks
+- [Lumberjack](/classes/lumberjack) — the class that feeds the fuel ladder
+- [Hard Mode](/guides/hard-mode) — why this run should not be attempted there
+- [Beginner Guide](/guides/beginner-guide) — the first-night window this route depends on
