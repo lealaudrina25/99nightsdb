@@ -1,0 +1,233 @@
+export const metadata = {
+  title: "Weapon Damage and Time to Kill in 99 Nights in the Forest: Every Published DPS Number on One Table, What the Brawler and Berserker Multipliers Actually Apply To, and the Weapons With No Number At All",
+  description: "Nineteen weapon pages publish damage and eight entity pages publish enemy health, and nobody has ever divided one by the other. This page does: a time-to-kill table for every published weapon against every enemy, the ×1.3 and ×1.6 class multipliers checked against sixteen published figures, and the two weapons whose damage no source states.",
+  category: "guides",
+  date: "2026-10-05",
+  lastModified: "2026-10-05",
+}
+
+# Weapon Damage and Time to Kill in 99 Nights in the Forest
+
+## Quick Answer
+
+Every weapon page on this site publishes how hard a weapon hits. Every enemy page publishes how much health that enemy has. **No page on this site has ever divided one by the other,** so the one number a player actually wants — how long this weapon takes to kill that thing — does not exist anywhere.
+
+What the arithmetic produces:
+
+- **The best melee in the game does 70 damage and the flamethrower does 163.6 per second.** The flamethrower is more than double the top melee weapon and is not in the consensus top tier.
+- **Brawler's +30% melee damage is an explicit rule, not a coincidence.** Sixteen separately published figures across eight weapons land on ×1.3 exactly.
+- **But Brawler cannot use ranged weapons at all**, so that +30% applies to none of the seven ranged weapons.
+- **Berserker's bonus is conditional on low health**, and not one weapon page says so. "Fully boosted Berserker" means near death.
+- **Two weapons have no published damage from any source we can find** — the chainsaw and, on this site, the infernal sword.
+
+## Why Nobody Published the One Number That Matters
+
+The weapons section is nineteen pages. Each one answers one question: how do you get this weapon. The numbers that accompany the answer are local facts — the Morningstar is 70 damage at a one-second swing, the Katana is 25 at 0.45.
+
+The entity section is fifteen pages, and each also answers one question: how do you survive this animal. The Wolf is 75 health, the Polar Bear is 500, the Mammoth is 800.
+
+Neither half is wrong. Neither half is useful on its own. A player standing in front of a Polar Bear with a Morningstar needs the quotient, and the quotient only exists in the reader's head after doing arithmetic across two unrelated pages. This page does the division and publishes the table.
+
+## Every Weapon Whose Damage Anyone Has Published
+
+### The melee table
+
+| Weapon | Damage per hit | Swing rate | DPS | Published by |
+|---|---|---|---|---|
+| Morningstar | 70 | 1.0 s | ~70 | this site, Bloxodes, Fandom |
+| Obsidiron Hammer | 70 | 1.0 s | ~70 | this site, Bloxodes |
+| Ice Sword | 35 | 0.5 s | ~70 | this site, Bloxodes |
+| Scythe (event) | 60 | 0.7 s | ~85.7 | this site, Bloxodes |
+| Vampire Scythe | 45 | 0.7 s | ~64.3 | this site, Bloxodes |
+| Trident | 35 (some sources 37.5) | ~0.6 s | ~58.3 | this site (Deltia), BloxSwaps |
+| Katana | 25 | 0.45 s | ~55.6 | this site, BloxSwaps |
+| Laser Sword | 25 base, 30 charged, 2 overheated | 0.5 s | 50 / 60 | this site, BloxSwaps |
+| Poison Spear | 25 | 0.5 s | ~50 | this site, 99nightsintheforest.wiki |
+| Spear | 25 | 0.5 s | ~50 | this site, BloxSwaps |
+| Infernal Sword | 40 plus burn | not published | not published | BloxSwaps |
+
+The first thing the table does is show something the tier lists never did: **the top three melee weapons all produce almost exactly the same output**, because the ones that swing faster hit for less. 70 at one second, 35 at half a second, and 45 at 0.7 seconds all land within two points of 70 DPS. The Morningstar, the Obsidiron Hammer and the Ice Sword are not three different damage profiles. They are the same profile wearing three different hoppers.
+
+The event Scythe is the exception, and it is the one that changes the ranking: at 60 damage and 0.7 seconds it is **85.7 DPS**, a full 22 percent above the tier that sits above it.
+
+### The ranged table
+
+| Weapon | Damage per hit | Cycle | Sustained output | Published by |
+|---|---|---|---|---|
+| Flamethrower | 8.18 per tick | 0.05 s | **163.6 DPS** | Fandom, Bloxodes, this site |
+| Tactical Shotgun | 8 pellets × 10 (20 headshot) | 3-shell magazine | 80–160 per shot | this site, Bloxodes |
+| Infernal Crossbow | 55 plus 10 burn per second | reload, not timed | 55 + 10 burn | Bloxodes, BloxSwaps |
+| Laser Cannon | 70 direct, no headshot | 7–8 s recharge | ~9–10 | this site, Bloxodes |
+| Infernal Crossbow burn | — | — | 10 per second | Bloxodes |
+| Kunai | 35 per throw | not published | not published | this site, BloxSwaps |
+| Raygun | 10 (15 headshot) | 9.5 s full recharge | ~10 | this site, Bloxodes |
+| Rifle | 60 (90 headshot) | 1 shot per 5 s reload | ~12 | this site, Bloxodes |
+| Revolver | 25 (37.5 headshot) | 6-shot, 5 s reload | ~5 | this site, Bloxodes |
+| Crossbow | 30–40 | ~3 s reload | ~13 | Bloxodes |
+| Air Rifle | 1 | — | trivial | BloxSwaps |
+
+The ranged table is not a smaller version of the melee table. **It is a different sport.** The highest sustained ranged output in the game is the Raygun at roughly 10 per second, which is one seventh of the weakest melee weapon. Ranged weapons win on not being hit, not on speed of killing, and the numbers make that trade visible for the first time.
+
+## Time to Kill: Weapon Damage Divided by Enemy Health
+
+This is the table that did not exist. Seconds are computed from the figures above, counting only the weapon cycle and ignoring any re-equip time, and rounding up to whole hits.
+
+| Enemy | Health | Obsidiron Hammer 70 / 1.0 s | Ice Sword 35 / 0.5 s | Flamethrower 163.6 DPS | Rifle 60 / 5 s |
+|---|---|---|---|---|---|
+| Scorpion | 50 | 1.0 s | 1.0 s | 0.31 s | 10.0 s |
+| Common Frog | 70 | 2.0 s | 1.5 s | 0.43 s | 10.0 s |
+| Wolf | 75 | 2.0 s | 1.5 s | 0.46 s | 10.0 s |
+| Meteor Crab | 75 | 2.0 s | 1.5 s | 0.46 s | 10.0 s |
+| Arctic Fox | 80 | 2.0 s | 3.0 s | 0.49 s | 15.0 s |
+| Cultist | 120 | 3.0 s | 3.0 s | 0.73 s | 15.0 s |
+| Boar | 125 | 4.0 s | 3.5 s | 0.76 s | 15.0 s |
+| Alpha Wolf | 115–125 | 4.0 s | 3.5 s | 0.76 s | 15.0 s |
+| Brute Cultist | 400–450 | 6.0 s | 7.0 s | 2.7 s | 40.0 s |
+| Bear | 350 | 6.0 s | 5.0 s | 2.1 s | 30.0 s |
+| Polar Bear | 500 | 8.0 s | 7.5 s | 3.1 s | 45.0 s |
+| Hellephant | 500–800 | 8.0 s | 7.5 s | 3.1 s | 45.0 s |
+| Mammoth | 800 | 12.0 s | 11.5 s | 4.9 s | 70.0 s |
+| Cultist King | ~1000 | 15.0 s | 14.5 s | 6.1 s | 90.0 s |
+
+Three things fall straight out of it, and none of them appear on any tier list.
+
+**The flamethrower kills everything in this table faster than the best melee, by a factor of two or more.** Against the Mammoth it is 4.9 seconds against the Morningstar's 12. Against the Cultist King it is 6.1 seconds against 15. It is the only weapon in the game that clears the entire hostile roster in under seven seconds.
+
+**The Rifle is a trap against anything that is not one hit.** Its 60 damage is strong in isolation, but it fires once per five-second reload, so against a Mammoth it takes 70 seconds and against the Cultist King 90. Against the Wolf it is a worse choice than the Spear by a factor of five, purely because the reload dominates.
+
+**The Arctic Fox is the only animal in the table where the Ice Sword gets worse than the Obsidiron Hammer**, and the reason is worth noting: 80 health needs three 35-damage swings but only two 70-damage ones. Rounding up to whole hits punishes fast low-damage weapons, and this is the single case in the roster where it flips the order.
+
+## The Brawler Multiplier Applies to Half the Roster
+
+The Brawler class description states the rule outright: **30 percent more damage with melee weapons.** That is not an inference from a pattern — it is the written perk.
+
+Check it against the sixteen published figures the site carries:
+
+| Weapon | Base | ×1.3 claimed | Published Brawler figure | Match |
+|---|---|---|---|---|
+| Morningstar | 70 | 91 | 91 | exact |
+| Obsidiron Hammer | 70 | 91 | 91 | exact |
+| Ice Sword | 35 | 45.5 | 45.5 | exact |
+| Katana | 25 | 32.5 | 32.5 | exact |
+| Poison Spear | 25 | 32.5 | 32.5 | exact |
+| Trident | 35 | 45.5 | not published | — |
+| Scythe | 60 | 78 | 78 | exact |
+| Vampire Scythe | 45 | 58.5 | 58.5 | exact |
+
+Six independent pages, six exact matches, and the pattern holds on the two scythes that were published by a separate source. This is a rule.
+
+**The catch is that the Brawler cannot use ranged weapons.** The class description says so plainly, and it is the single most load-bearing fact about the class that no weapon page carries. So the +30% applies to the ten melee weapons in the table and to exactly none of the seven ranged ones. A player reading "Brawler deals 30 percent more damage" next to a page about the Rifle is being invited to apply a bonus to a weapon the class is forbidden from firing.
+
+The practical consequence, from the time-to-kill table: the Brawler kills a Wolf in **one hit instead of two**, and a Boar in **two hits instead of four**. The bonus is not a scaling edge — against most of the roster it is the difference between a hit and a miss, and it is worth more on the enemies that take three or four hits than on the ones that die to two.
+
+## The Berserker Multiplier Is Conditional and Nobody Says So
+
+The Berserker perk is not a flat bonus. It reads: **deal higher damage as your health gets lower.** Every weapon page that quotes a Berserker figure phrases it the same way — "fully boosted Berserker" — and none of them explains that the boost is a function of how close to death you are.
+
+That is why the numbers are all round and all consistent: 70 becomes 112, 35 becomes 56, 25 becomes 40. Those are ×1.6, and ×1.6 is what you get at the floor of the health range. The class is a build-around for the fights where you are already losing.
+
+| Weapon | Base | ×1.6 floor | Result against a Wolf (75 HP) |
+|---|---|---|---|
+| Obsidiron Hammer | 70 | 112 | One hit, down from two |
+| Scythe | 60 | 96 | One hit, down from two |
+| Ice Sword | 35 | 56 | Two hits, up from three |
+| Trident | 35 | 56 | Two hits, up from three |
+| Katana | 25 | 40 | Two hits, up from three |
+| Tactical Shotgun | 160 point-blank | 256 | One shot, up from one |
+
+The last row is worth pausing on, because it is the cleanest evidence that the multiplier is real rather than a coincidence: Bloxodes publishes the Tactical Shotgun at 160 potential per shot and **256 with max Berserker**, and 160 × 1.6 is 256 exactly.
+
+What the table also shows is that the Berserker bonus does not scale the way players assume. It converts two-hit kills into one-hit kills, which matters enormously against wolves and almost nowhere else. Against the Polar Bear it takes 8 hits to 5, which is a real improvement and not a rewrite.
+
+## The Flamethrower Is the Highest DPS Weapon and Is Not in the Tier List
+
+This is the sharpest finding in the whole arithmetic.
+
+The consensus top tier on this site lists the morningstars, hammers, ice swords and crossbows. Every one of those sits at or below 85.7 DPS. **The flamethrower sits at 163.6** — nearly double — and it is absent from the tier list entirely, because the tier list is assembled from opinion about availability rather than from the numbers.
+
+The flamethrower's own page is honest about the shape of that trade. It is class-exclusive to Pyromaniac, it burns fuel, and it has the shortest effective range of anything on the melee-versus-ranged axis. Those are real costs. But the cost side of the argument has been published in full, and the damage side has never been compared to anything else. Once you do, the flamethrower is not a niche option — on raw time-to-kill it is the best weapon in the game against every single entity on this site's roster.
+
+Two further notes that belong with it. It is the only weapon that drops cooked meat from the animals it kills, which makes it a food source as well as a weapon. And the burn ticks continue after the fuel runs out, so its effective output against a single target is higher than the sustained figure suggests, not lower.
+
+## The Weapons With No Published Number At All
+
+Two weapons in the roster have no damage figure we can attribute to any source:
+
+- **The chainsaw.** Bloxodes lists it as a category with a damage figure "not listed." Finding Dulcinea says it does less damage than a Spear but the damage is continuous while the trigger is held. The [chainsaw page](/weapons/how-to-get-chainsaw) on this site carries no damage row at all. For a weapon whose entire pitch is continuous damage, the absence of a rate is the absence of the only number that would describe it.
+- **The Infernal Sword.** BloxSwaps puts it at 40 plus burn. Sports Rant says "over 50 damage per hit." Finding Dulcinea says only "slightly more than the Laser Sword." The [infernal sword page](/weapons/how-to-get-infernal-sword) carries no damage figure. The spread between 40 and 50 is a whole extra hit against a Boar, so this gap is not academic.
+
+The site is not alone in this. The chainsaw is the clearest case of a weapon whose defining property — continuous output over time — has no number attached anywhere we can find.
+
+## Class Damage Perks Ranked by What They Actually Add
+
+Placing every damage-relevant class perk against the table above:
+
+| Class | Perk | What it adds in practice |
+|---|---|---|
+| Brawler | +30% melee, cannot use ranged | One extra wolf kill per engagement; nothing on ranged |
+| Berserker | Damage rises as health falls, up to ×1.6 | One-hit thresholds on wolves; best in fights you are losing |
+| Ranger | Starts with 18 ammo, 10% ammo refund | Skips the ammo wall, not the DPS wall |
+| Assassin | Kunai and 35 damage throws, crit multiplier | Keeps pressure during reloads; 35 per throw is ranged damage |
+| Cyborg | Starts with a Laser Cannon, 87.5 at Level 2 | 70 per shot at a 7–8 s recharge, plus alien waves covered |
+| Support | Bonus damage when close to your partner | The only damage perk that needs another player |
+| Fire Bandit | Wildfire spreads, Infernal Crossbow route | Free crossbow, plus area spread |
+
+The Support row is the one that deserves attention, because it is the only damage perk in the game with a cooldown of its own. It pays off in pair play and pays nothing at all in solo, and the weapon pages never mention it.
+
+## Where Sources Disagree
+
+- **Trident base damage:** the site's figure is 35, Deltia's is 35, and BloxSwaps says 37.5. The difference is a fraction of one hit against most enemies but it changes the swing rate implied by the published DPS.
+- **Tactical Shotgun magazine:** Bloxodes says 3-shot with 8 pellets per shot, the wiki says 4 rounds in the magazine, and the site records a 3-shell magazine starting with 43 shells. The pellet count is consistent; the capacity is not.
+- **Laser Cannon cost:** Bloxodes says a 7–8 second recharge, the wiki says the shot requires half the user's Alien Tech bar and consumes about 80 percent when fired. Those are different mechanics, not different numbers.
+- **Infernal Sword damage:** 40 from BloxSwaps, "over 50" from Sports Rant, "slightly more than the Laser Sword" from Finding Dulcinea.
+- **Flamethrower DPS:** Fandom lists 163.6 exactly, this site rounds to "about 160," and 99nightsintheforest.net describes a flamethrower with 3.5 direct damage, 2.5 burn DPS for 8 seconds and a Bench Tier 3 crafting recipe. That last set describes a different weapon entirely — there is no crafting route for the flamethrower in any other source, and the class-exclusive claim is universal.
+- **Obsidiron Hammer swing rate:** this site says 1.0 second; Bloxodes appears to attach a 0.9 second figure to it. At 70 damage the difference is one tenth of a second per swing, which is four percent of output.
+- **Cultist health:** flat 100 from one mob list, 120 as the site's working figure, with the Caverns and Jungle variants recorded separately.
+- **Chainsaw existence as a weapon at all:** Finding Dulcinea lists it under Tier B melee; other weapon inventories do not carry it in the melee table.
+
+## FAQ
+
+**Which weapon kills the fastest in raw seconds?**
+The flamethrower, against every entity on this site's roster. Its 163.6 DPS clears the Mammoth in 4.9 seconds, where the best melee needs 12.
+
+**Does Brawler boost ranged weapons?**
+No. The class cannot use them. The +30% applies to melee only, which is roughly half the roster and none of the guns.
+
+**Is the Berserker bonus always active?**
+No. It rises as your health falls. The figures quoted around the site — 70 to 112, 35 to 56 — describe the floor of that range, near death.
+
+**Why do the Morningstar, Obsidiron Hammer and Ice Sword all feel the same?**
+Because they are. 70 per second, 35 per half second and 45 per 0.7 second all produce within two points of 70 DPS. They differ in reach, in the explosion bar and in the frost effect, not in output.
+
+**Is the Rifle a good weapon?**
+It is a good weapon against things that die to one shot and a poor one against everything else, because a five-second reload on a 60-damage shot gives roughly 12 sustained damage per second — below the Spear.
+
+**Why is the Arctic Fox the one animal the Ice Sword loses to?**
+Because 80 health needs three 35-damage swings but only two 70-damage ones. Whole-hit rounding favours the heavier weapon, and the Ice Sword is the only weapon in the table that loses a matchup it otherwise wins on rate.
+
+## Sources
+
+- Fandom, "Flamethrower" — 8.18 damage, 163.6 DPS, 0.05 second fire rate
+- Fandom, "Classes" — Brawler +30% melee damage, Berserker damage scaling on low health, every class ladder
+- Bloxodes, "All 33 Weapons in 99 Nights in the Forest" — full stat table for every ranged weapon
+- BloxSwaps, "99 Nights in the Forest Weapons" — per-weapon damage and acquisition
+- Finding Dulcinea, "All 99 Nights in the Forest Weapons & Tiers" — chainsaw, admin axe and tier placement
+- 99nightsintheforest.wiki, "Weapons" — conditional mechanics for shotgun, laser cannon and raygun
+- Sports Rant, "Infernal Sword" — 50 plus damage claim and volcano sacrifice count
+- this site's [morningstar](/weapons/how-to-get-morningstar), [obsidiron hammer](/weapons/how-to-get-obsidiron-hammer), [ice sword](/weapons/how-to-get-ice-sword), [katana](/weapons/how-to-get-katana), [trident](/weapons/how-to-get-trident), [poison spear](/weapons/how-to-get-poison-spear), [scythe](/weapons/how-to-get-scythe), [laser sword](/weapons/how-to-get-laser-sword), [raygun](/weapons/how-to-get-raygun), [tactical shotgun](/weapons/how-to-get-shotgun), [rifle](/weapons/how-to-get-rifle), [revolver](/weapons/how-to-get-revolver) and [best weapons](/weapons/best-weapons) pages
+- this site's entity pages: [the wolf](/entities/the-wolf), [the alpha wolf](/entities/the-alpha-wolf), [the boar](/entities/the-boar), [the bear](/entities/the-bear), [the polar bear](/entities/the-polar-bear), [the mammoth](/entities/the-mammoth), [the hellephant](/entities/the-hellephant), [the scorpion](/entities/the-scorpion), [the arctic fox](/entities/the-arctic-fox), [the cultist](/entities/the-cultist), [the brute cultist](/entities/the-brute-cultist) and [the cultist king](/entities/the-cultist-king)
+
+## Related Pages
+
+- [Best Weapons](/weapons/best-weapons) — the consensus tier list this page's numbers contradict
+- [How to Get the Chainsaw](/weapons/how-to-get-chainsaw) — the one weapon with no published damage
+- [How to Get the Infernal Sword](/weapons/how-to-get-infernal-sword) — damage that ranges from 40 to 50 by source
+- [Brawler Class](/classes/brawler-class) — a +30% bonus that applies to half the roster
+- [Berserker Class](/classes/berserker-class) — the conditional multiplier behind every "fully boosted" figure
+- [Cyborg Class](/classes/cyborg-class) — the Laser Cannon multiplier
+- [Assassin Class](/classes/assassin-class) — 35-damage throws and the reload gap
+- [Poison Spear](/weapons/how-to-get-poison-spear) — 25 damage and the only DoT on a melee
+- [Ammo Guide](/guides/ammo-guide) — why the guns run dry at exactly the wrong moment
+- [Healing Guide](/guides/healing-guide) — surviving the seconds the time-to-kill table says you will not have
+- [Hard Mode](/guides/hard-mode) — corrupted weapons and the multipliers they break
+- [Class Levels](/guides/class-levels) — the grind side of the same classes
