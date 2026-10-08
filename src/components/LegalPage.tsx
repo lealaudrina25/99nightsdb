@@ -7,6 +7,34 @@ export type LegalSection = {
 }
 
 /**
+ * Legal copy is plain text, but advertising disclosures have to link out to
+ * vendor opt-out pages, so a paragraph may contain [text](url) markers.
+ */
+function renderInline(text: string, key: string) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g)
+  if (parts.length === 1) return text
+  return (
+    <>
+      {parts.map((part, index) => {
+        const link = /^\[([^\]]+)\]\(([^)]+)\)$/.exec(part)
+        if (!link) return <span key={`${key}-${index}`}>{part}</span>
+        return (
+          <a
+            key={`${key}-${index}`}
+            href={link[2]}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-foreground"
+          >
+            {link[1]}
+          </a>
+        )
+      })}
+    </>
+  )
+}
+
+/**
  * Shared shell for the hand-written legal pages.
  * Copy is intentionally hardcoded English in each page file.
  */
@@ -39,7 +67,7 @@ export function LegalPage({
             <h2 className="text-2xl font-semibold tracking-tight">{section.title}</h2>
             <div className="mt-4 space-y-4 text-base leading-7 text-muted-foreground">
               {section.body.map((paragraph) => (
-                <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+                <p key={paragraph.slice(0, 32)}>{renderInline(paragraph, paragraph.slice(0, 32))}</p>
               ))}
             </div>
           </section>
