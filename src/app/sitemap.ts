@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { getAllContent, getAllContentPaths } from '@/lib/content'
 import { HREFLANG, routing } from '@/i18n/routing'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vvultimatum.example'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://99nightsdb.com'
 
 /** `/bosses` for the default locale, `/zh/bosses` for everything else. */
 function localized(locale: string, path: string) {

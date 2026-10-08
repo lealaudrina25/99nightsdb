@@ -1,7 +1,7 @@
 {
-  "name": "VV: ULTIMATUM Wiki",
-  "short_name": "VV Ultimatum",
-  "description": "Fan-made VV: ULTIMATUM wiki with boss guides, race routes, builds, and checked codes.",
+  "name": "99 Nights in the Forest Wiki",
+  "short_name": "99 Nights Wiki",
+  "description": "Fan-made 99 Nights in the Forest wiki with boss guides, taming routes, item tables, and checked codes.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",

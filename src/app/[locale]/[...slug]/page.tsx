@@ -8,7 +8,7 @@ import { SidebarNav } from '@/components/SidebarNav'
 import { NavigationPage } from '@/components/NavigationPage'
 import { DetailPage } from '@/components/DetailPage'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vvultimatum.example'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://99nightsdb.com'
 const OG_IMAGE = `${SITE_URL}/images/hero.webp`
 
 type Params = { locale: string; slug: string[] }

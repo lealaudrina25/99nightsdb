@@ -8,7 +8,7 @@ import { SiteFooter } from '@/components/SiteFooter'
 import { JsonLd } from '@/components/JsonLd'
 import { themeScript } from '@/components/ThemeToggle'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vvultimatum.example'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://99nightsdb.com'
 const OG_IMAGE = `${SITE_URL}/images/hero.webp`
 
 export function generateStaticParams() {
@@ -115,6 +115,12 @@ export default async function LocaleLayout({
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
+        />
+        {/* Google AdSense — publisher ID ca-pub-94867555764574054 (site verification + Auto ads) */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-94867555764574054"
+          crossOrigin="anonymous"
         />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>

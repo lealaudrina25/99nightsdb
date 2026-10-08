@@ -1,14 +1,8 @@
-# ads.txt — REQUIRED, DO NOT DELETE
+# ads.txt — authorized digital sellers for 99nightsdb.com
 #
-# Authorized digital sellers file (IAB Tech Lab standard).
-# Replace every line below with the entries your ad network issues for this
-# domain. Deleting this file costs money: networks read it to verify that the
-# ads served on this site are authorized.
+# IAB Tech Lab standard. Ad networks read this to verify that the ads served
+# on this domain are authorized. Do not delete this file.
 #
 # Format: <domain>, <publisher-id>, <relationship>, <certification-authority-id>
-#
-# Example (Adsterra):
-# adsterra.com, 00000000, DIRECT, 0000000000000000
-#
-# Placeholder entries left empty on purpose — fill them in from your network
-# dashboard before traffic arrives.
+
+google.com, pub-94867555764574054, DIRECT, f08c47fec0942fa0
