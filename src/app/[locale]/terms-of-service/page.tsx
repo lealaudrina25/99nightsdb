@@ -10,7 +10,7 @@ export function generateStaticParams() {
 export const metadata = {
   title: 'Terms of Service',
   description:
-    'The terms that apply when you browse and use VV: ULTIMATUM Wiki, an independent fan-made guide site.'
+    'The terms that apply when you browse and use the 99 Nights in the Forest Wiki, an independent fan-made guide site.'
 }
 
 export default async function TermsOfServicePage({
@@ -27,14 +27,14 @@ export default async function TermsOfServicePage({
         <main className="min-w-0 flex-1">
           <LegalPage
             title="Terms of Service"
-            updated="Last updated: September 11, 2026"
+            updated="Last updated: October 8, 2026"
             intro="By browsing this wiki you agree to the terms below. If you do not agree with them, please stop using the site."
             breadcrumbs={[{ label: 'Terms of Service' }]}
             sections={[
               {
                 title: 'Use of the site',
                 body: [
-                  'VV Ultimatum Wiki is provided free of charge for informational purposes. Guides, tables, and tier lists reflect community testing and may change with every game update.',
+                  'The 99 Nights in the Forest Wiki is provided free of charge for informational purposes. Guides, tables, and tier lists reflect community testing and may change with every game update.',
                   'You are free to read, print, and share links to any page for personal, non-commercial use.'
                 ]
               },

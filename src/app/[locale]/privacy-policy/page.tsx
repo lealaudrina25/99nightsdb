@@ -10,7 +10,7 @@ export function generateStaticParams() {
 export const metadata = {
   title: 'Privacy Policy',
   description:
-    'How VV: ULTIMATUM Wiki handles visitor data, analytics, advertising partners, and cookies.'
+    'How the 99 Nights in the Forest Wiki handles visitor data, analytics, advertising partners, and cookies.'
 }
 
 export default async function PrivacyPolicyPage({
@@ -27,14 +27,14 @@ export default async function PrivacyPolicyPage({
         <main className="min-w-0 flex-1">
           <LegalPage
             title="Privacy Policy"
-            updated="Last updated: September 11, 2026"
+            updated="Last updated: October 8, 2026"
             intro="This fan-made wiki explains what data is collected when you browse it, why it is collected, and how you can opt out."
             breadcrumbs={[{ label: 'Privacy Policy' }]}
             sections={[
               {
                 title: 'Who we are',
                 body: [
-                  'VV Ultimatum Wiki is an independent, fan-built reference site. It is not affiliated with Midnight Continent or Roblox Corporation.',
+                  'The 99 Nights in the Forest Wiki is an independent, fan-built reference site. It is not affiliated with Grandma\'s Favourite Games or Roblox Corporation.',
                   'The site is run by players for players and is not an official product of any company.'
                 ]
               },

@@ -10,7 +10,7 @@ export function generateStaticParams() {
 export const metadata = {
   title: 'Copyright',
   description:
-    'Copyright and content attribution notes for VV: ULTIMATUM Wiki, an unofficial fan project.'
+    'Copyright and content attribution notes for the 99 Nights in the Forest Wiki, an unofficial fan project.'
 }
 
 export default async function CopyrightPage({
@@ -27,14 +27,14 @@ export default async function CopyrightPage({
         <main className="min-w-0 flex-1">
           <LegalPage
             title="Copyright"
-            updated="Last updated: September 11, 2026"
+            updated="Last updated: October 8, 2026"
             intro="This page explains what belongs to us, what belongs to the game developers, and how to ask for credit fixes or takedowns."
             breadcrumbs={[{ label: 'Copyright' }]}
             sections={[
               {
                 title: 'Game intellectual property',
                 body: [
-                  'VV: ULTIMATUM, its characters, art, music, and gameplay systems are the property of their respective owners. All trademarks belong to their holders.',
+                  '99 Nights in the Forest, its art, music, and gameplay systems are the property of Grandma\'s Favourite Games and their respective owners. All trademarks belong to their holders.',
                   'This wiki is an unofficial fan project and claims no ownership over in-game assets.'
                 ]
               },
