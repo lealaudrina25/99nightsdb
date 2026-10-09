@@ -42,8 +42,8 @@ export async function DetailPage({
     dateModified: metadata.lastModified ?? metadata.date,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     articleSection: metadata.category,
-    author: { '@type': 'Organization', name: '99 Nights Wiki', url: siteUrl },
-    publisher: { '@type': 'Organization', name: '99 Nights Wiki', url: siteUrl }
+    author: { '@type': 'Organization', name: '99 Nights DB', url: siteUrl },
+    publisher: { '@type': 'Organization', name: '99 Nights DB', url: siteUrl }
   }
 
   const breadcrumbLd = {

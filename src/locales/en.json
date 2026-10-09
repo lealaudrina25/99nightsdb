@@ -1,16 +1,16 @@
 {
   "site": {
-    "name": "99 Nights in the Forest",
-    "shortName": "99 Nights Wiki",
+    "name": "99 Nights DB",
+    "shortName": "99 Nights DB",
     "tagline": "Fan-Made Community Wiki",
-    "title": "99 Nights in the Forest Wiki — Codes, Classes, Weapons & Guides",
+    "title": "99 Nights DB — 99 Nights in the Forest Codes & Guides",
     "description": "Fan-made 99 Nights in the Forest wiki with working codes, every class with prices and perks, weapon and item databases, entity behaviour notes, map locations, taming routes and survival guides.",
-    "ogImageAlt": "99 Nights in the Forest Wiki — Codes, Classes, Weapons & Guides",
+    "ogImageAlt": "99 Nights DB — 99 Nights in the Forest Codes, Classes & Guides",
     "footerNote": "Non-official fan wiki. Made by players, for players.",
-    "footerBrand": "99 Nights Wiki",
-    "footerDesc": "99 Nights Wiki is an independent fan-built guide hub covering classes, weapons, items, entities, map locations, taming and survival strategy for new and veteran players alike.",
+    "footerBrand": "99 Nights DB",
+    "footerDesc": "99 Nights DB is an independent fan-built guide hub covering classes, weapons, items, entities, map locations, taming and survival strategy for new and veteran players alike.",
     "footerBadge": "Fan-made reference · Updated with every patch",
-    "copyright": "© 2026 99 Nights Wiki. Not affiliated with Grandma's Favourite Games or Roblox."
+    "copyright": "© 2026 99 Nights DB. Not affiliated with Grandma's Favourite Games or Roblox."
   },
   "nav": {
     "codes": "Codes",
