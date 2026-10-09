@@ -92,6 +92,20 @@ export async function SiteFooter() {
           </div>
         </div>
 
+        {/* Google Preferred Sources CTA (2026): let readers boost this wiki in AI Overviews / Top Stories */}
+        <div className="mt-8 flex flex-col items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-5 text-center">
+          <p className="max-w-xl text-sm leading-6 text-neutral-300">
+            Find this wiki useful? Set{' '}
+            <span className="font-semibold text-neutral-100">99 Nights DB</span> as a
+            preferred source on Google — your guides show up first in AI Overviews.
+          </p>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: '<div google-add-preferred-source-btn data-theme="dark"></div>'
+            }}
+          />
+        </div>
+
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-neutral-800 pt-5">
           <span className="text-sm text-neutral-500">{tSite('copyright')}</span>
           <span className="text-sm text-neutral-500">{tSite('footerNote')}</span>

@@ -122,6 +122,8 @@ export default async function LocaleLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-94867555764574054"
           crossOrigin="anonymous"
         />
+        {/* Google Preferred Sources button library (2026) — readers can set this wiki as a preferred source so it surfaces first in AI Overviews / Top Stories */}
+        <script async src="https://news.google.com/swg/js/v1/publisher.js" />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="font-sans antialiased">
