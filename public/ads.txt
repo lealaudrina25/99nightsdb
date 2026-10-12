@@ -5,4 +5,4 @@
 #
 # Format: <domain>, <publisher-id>, <relationship>, <certification-authority-id>
 
-google.com, pub-94867555764574054, DIRECT, f08c47fec0942fa0
+google.com, pub-9486755576574054, DIRECT, f08c47fec0942fa0

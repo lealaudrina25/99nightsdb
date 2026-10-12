@@ -116,10 +116,10 @@ export default async function LocaleLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />
-        {/* Google AdSense — publisher ID ca-pub-94867555764574054 (site verification + Auto ads) */}
+        {/* Google AdSense — publisher ID ca-pub-9486755576574054 (site verification + Auto ads) */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-94867555764574054"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9486755576574054"
           crossOrigin="anonymous"
         />
         {/* Google Preferred Sources button library (2026) — readers can set this wiki as a preferred source so it surfaces first in AI Overviews / Top Stories */}

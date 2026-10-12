@@ -1,6 +1,6 @@
 /**
  * Ad placement is handled by the AdSense script in the locale layout
- * (Auto ads, publisher ca-pub-94867555764574054). The old dashed
+ * (Auto ads, publisher ca-pub-9486755576574054). The old dashed
  * placeholder iframes were removed because empty "Advertisement" boxes
  * read as an unfinished site during AdSense review.
  *
